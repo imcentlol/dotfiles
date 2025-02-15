@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=rofi -show emoji -emoji-mode insert_no_copy -theme squared-nord.rasi -show-icons -display-emoji "Emoji" 
+Type=Application
+Categories=Development
+Name=Emoji
