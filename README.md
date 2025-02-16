@@ -8,8 +8,10 @@
 6.fish\
 7.Thunar\
 8.polybar\
-9.nitrogen\
+9.nitrogen
 ## ***Note:**
-You need to change the rofi backlight modules to match your system backlight\
-This is ***neccessary*** to allow polybar to change your screen brightness!!
+You need to change backlight backend in the the rofi backlight modules to match your system backlight\
+This is ***neccessary*** to allow polybar to change your screen brightness!!\
+You can achieve the backend by using this script *get-backlight.sh* 
+
 
