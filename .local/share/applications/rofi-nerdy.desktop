@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=rofi -modi nerdy -show nerdy
+Type=Application
+Categories=Development
+Name=Nerdy

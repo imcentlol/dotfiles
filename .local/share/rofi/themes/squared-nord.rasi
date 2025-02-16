@@ -2,7 +2,7 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
-    font:   "FiraCode Nerd Font Medium 12";
+    font:   "Arimo Nerd Font Bold 14";
 
     bg0:     #2E3440;
     bg1:     #3B4252;
@@ -88,7 +88,7 @@ element selected urgent {
 }
 
 element-icon {
-    size:   0.8em;
+    size:   1.5em;
 }
 
 element-text {
