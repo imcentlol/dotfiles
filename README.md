@@ -12,6 +12,6 @@
 ## ***Note:**
 You need to change backlight backend in the the rofi backlight modules to match your system backlight\
 This is ***neccessary*** to allow polybar to change your screen brightness!!\
-You can achieve the backend by using this script *get-backlight.sh* 
+You can achieve the backend by using this script ***get-backlight.sh***
 
 
