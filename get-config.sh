@@ -23,6 +23,7 @@ sudo cp -rp ~/.local/share/rofi/themes/ ./.local/share/rofi/themes
 sudo cp -rp ~/.local/share/applications/rofi-calc.desktop ./.local/share/applications/
 sudo cp -rp ~/.local/share/applications/rofi-sound.desktop ./.local/share/applications/
 sudo cp -rp ~/.local/share/applications/rofi-emoji.desktop ./.local/share/applications/
+sudo cp -rp ~/.local/share/applications/rofi-nerdy.desktop ./.local/share/applications/
 sudo cp -rp ~/.local/share/applications/rofi-wifi-menu.desktop ./.local/share/applications/
 sudo cp -rp ~/.config/nitrogen/ ./.config/
 sudo cp /picom.conf .
