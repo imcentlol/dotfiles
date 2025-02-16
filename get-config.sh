@@ -10,6 +10,7 @@ mkdir -p .config/
 mkdir -p etc/udev/rules.d
 mkdir -p .local/share/rofi/
 mkdir -p .local
+sudo cp -rp ~/.config/alacritty/ ./.config/alacritty
 sudo cp -rp ~/.config/i3/ ./.config/i3
 sudo cp -rp ~/.config/Thunar ./.config/Thunar
 sudo cp -rp ~/.config/rofi/ ./.config/rofi
