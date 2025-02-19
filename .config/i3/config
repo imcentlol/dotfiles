@@ -67,7 +67,7 @@ font pango:monospace 8
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id polybar
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id picom --animations -b --config ~/.config/picom/picom.conf
+exec --no-startup-id picom --animations -b --config ~/.config/picom/picom.conf --experimental-backends
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -202,7 +202,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+f exec picom --animations -b --config ~/.config/picom/picom.conf
+bindsym $mod+Shift+f exec picom --animations -b --config ~/.config/picom/picom.conf & --experimental-backends
 bindsym $mod+mod1+f exec pkill picom
 
 # resize window (you can also use the mouse for that)
