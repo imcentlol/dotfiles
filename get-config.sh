@@ -17,6 +17,7 @@ sudo cp -rp ~/.config/i3/ ./.config/i3
 sudo cp -rp ~/.config/Thunar ./.config/Thunar
 sudo cp -rp ~/.config/rofi/ ./.config/rofi
 sudo cp -rp ~/.config/fish/ ./.config/fish
+sudo cp -rp ~/.config/neofetch/ ./.config/neofetch
 sudo cp -rp ~/.config/polybar/ ./.config/polybar
 sudo cp -rp ~/.config/nvim/ ./.config/nvim
 sudo cp -rp ~/.config/spicetify ./.config/spicetify

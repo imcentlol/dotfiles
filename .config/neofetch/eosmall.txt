@@ -1,0 +1,7 @@
+${c1}           /$\x1b[35mo${c3}.
+${c1}         :$\x1b[35mssss\x1b[36mo${c3}-
+${c1}       :$\x1b[35mosssssss\x1b[36mo${c3}:
+${c1}     /$\x1b[35msssssssssss\x1b[36mo${c3}+
+${c1}  -+$\x1b[35msssssssssssssss\x1b[36mo${c3}+
+${c1} //$\x1b[35mossssssssssssss\x1b[36mo${c3}+-
+  \x1b[36m`+++++++++++++++-`
