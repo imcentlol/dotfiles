@@ -31,3 +31,4 @@ sudo cp -rp ~/.local/share/applications/rofi-wifi-menu.desktop ./.local/share/ap
 sudo cp -rp ~/.config/nitrogen/ ./.config/
 sudo cp -rp ~/.config/picom/ ./.config/picom/
 
+

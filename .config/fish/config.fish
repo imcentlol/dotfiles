@@ -4,3 +4,5 @@ end
 function fish_greeting
     neofetch
 end
+
+[ -s "/home/imcentlol/.jabba/jabba.fish" ]; and source "/home/imcentlol/.jabba/jabba.fish"
