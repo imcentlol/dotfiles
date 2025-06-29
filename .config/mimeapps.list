@@ -1,0 +1,5 @@
+[Added Associations]
+application/pdf=com.microsoft.Edge.desktop;
+
+[Default Applications]
+x-scheme-handler/discord=vesktop.desktop

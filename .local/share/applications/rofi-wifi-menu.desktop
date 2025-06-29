@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=rofi-wifi-menu.sh
+Exec=rofi-wifi-menu
 Type=Application
 Categories=Development
 Name=Wifi

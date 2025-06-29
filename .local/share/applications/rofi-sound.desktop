@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=rofi -show rofi-sound -modi "rofi-sound:rofi-sound-output-chooser"
+Exec=rofi -show rofi-sound -modi "rofi-sound:rofi-sound-output-chooser.sh"
 Type=Application
 Category=Development
 Name=Sound

@@ -10,26 +10,16 @@ mkdir -p .config/
 mkdir -p etc/udev/rules.d
 mkdir -p .local/share/rofi/
 mkdir -p .local
-sudo cp -rp ~/.config/picom/ ./.config/picom
-sudo cp -rp ~/.config/alacritty/ ./.config/alacritty
-sudo cp -rp ~/.config/dunst/ ./.config/dunst
-sudo cp -rp ~/.config/i3/ ./.config/i3
-sudo cp -rp ~/.config/Thunar ./.config/Thunar
-sudo cp -rp ~/.config/rofi/ ./.config/rofi
-sudo cp -rp ~/.config/fish/ ./.config/fish
-sudo cp -rp ~/.config/neofetch/ ./.config/neofetch
-sudo cp -rp ~/.config/polybar/ ./.config/polybar
-sudo cp -rp ~/.config/nvim/ ./.config/nvim
-sudo cp -rp ~/.config/spicetify ./.config/spicetify
-sudo cp -rp /etc/udev/rules.d/backlight.rules ./etc/udev/rules.d/
-sudo cp -rp /etc/polybar/ ./etc/polybar
-sudo cp -rp ~/.local/share/rofi/themes/ ./.local/share/rofi/themes
-sudo cp -rp ~/.local/share/applications/rofi-calc.desktop ./.local/share/applications/
-sudo cp -rp ~/.local/share/applications/rofi-sound.desktop ./.local/share/applications/
-sudo cp -rp ~/.local/share/applications/rofi-emoji.desktop ./.local/share/applications/
-sudo cp -rp ~/.local/share/applications/rofi-nerdy.desktop ./.local/share/applications/
-sudo cp -rp ~/.local/share/applications/rofi-wifi-menu.desktop ./.local/share/applications/
-sudo cp -rp ~/.config/nitrogen/ ./.config/
-sudo cp -rp ~/.config/picom/ ./.config/picom/
+sudo cp -Rp ~/.config/ ./
+sudo cp -Rp /etc/udev/rules.d/backlight.rules ./etc/udev/rules.d/
+sudo cp -Rp /etc/polybar/ ./etc/
+sudo cp -Rp ~/.local/share/rofi/themes/ ./.local/share/rofi/
+sudo cp -Rp ~/.local/share/applications/rofi-calc.desktop ./.local/share/applications/
+sudo cp -Rp ~/.local/share/applications/rofi-sound.desktop ./.local/share/applications/
+sudo cp -Rp ~/.local/share/applications/rofi-emoji.desktop ./.local/share/applications/
+sudo cp -Rp ~/.local/share/applications/rofi-nerdy.desktop ./.local/share/applications/
+sudo cp -Rp ~/.local/share/applications/rofi-wifi-menu.desktop ./.local/share/applications/
+sudo cp -Rp ~/.config/nitrogen/ ./.config/
+sudo cp -Rp ~/.config/picom/ ./.config/
 
 

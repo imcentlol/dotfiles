@@ -38,6 +38,7 @@ default_border pixel 4
 default_floating_border pixel 4
 for_window [title="Network Connections"] floating enable
 for_window [title="Volume Control"] floating enable
+for_window [class="[.]*"] floating enable
 
 #disable mouse focus on hover
 focus_follows_mouse no
@@ -68,6 +69,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id polybar
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom --animations -b --config ~/.config/picom/picom.conf & --experimental-backends
+exec --no-startup-id feh --bg-scale ~/.config/i3/wallpaper.png
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -102,6 +104,9 @@ bindsym $mod+Shift+Return exec "tmux kill-session -a"
 # kill focused window
 bindsym $mod+Shift+q kill
 
+# use screenshoot
+bindsym --release $mod+p exec ~/.config/i3/screenshot.sh
+
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show drun -show-icons -display-drun "Application"
 # A more modern dmenu replacement is rofi:
@@ -123,9 +128,9 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+i move up
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
@@ -213,9 +218,9 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
         bindsym k resize grow height 10 px or 10 ppt
-        bindsym i resize shrink height 10 px or 10 ppt
+        bindsym j resize shrink height 10 px or 10 ppt
         bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
