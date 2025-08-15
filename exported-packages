@@ -1,4 +1,3 @@
-anifetch
 base
 base-devel
 beautyline
@@ -16,6 +15,7 @@ foremost
 fuzzel
 ghc
 git
+github-cli
 htop
 kitty
 lf
