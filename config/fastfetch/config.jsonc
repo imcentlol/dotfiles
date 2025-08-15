@@ -1,0 +1,71 @@
+{
+    "logo": {
+        "type": "kitty-icat",
+	"source": "~/.config/fastfetch/logo.png",
+        "padding": {
+            "top": 0,
+            "right": 3,
+	    "bottom": 6
+        },
+	"width": 21,
+	"height": 21
+    },
+    "display": {
+        "separator": "|",
+        "color": {
+            "separator": "red"
+        },
+    },
+    "modules": [
+	{
+	    "type": "custom",
+	    "format": "{#35}imcentlol{#35}@{#35}arch"
+	},    
+
+	{
+            "type": "custom",
+            "format": "------------------------------------------"
+      	},
+        {
+            "key": "{#31} kernel   ",
+            "type": "kernel"
+        },
+        {
+            "key": "{#33}{icon} distro   ",
+            "type": "os"
+        },
+        {
+            "key": "{#34}󰇄 desktop  ",
+            "type": "wm"
+        },
+        {
+            "key": "{#35} term     ",
+            "type": "terminal"
+        },
+        {
+            "key": "{#36} shell    ",
+            "type": "shell"
+        },
+        {
+            "key": "{#35}󰍛 cpu      ",
+            "type": "cpu",
+            "format": "{name}"
+        },
+        {
+            "key": "{#34}󰍛 gpu      ",
+            "type": "gpu",
+	    "format": "{name}"
+ 
+        },
+        {
+            "key": "{#33}󰉉 disk     ",
+            "type": "disk",
+            "folders": "/",
+            "format": "{size-used} / {size-total} ({size-percentage})"
+        },
+        {
+            "key": "{#32} memory   ",
+            "type": "memory"
+        },
+    ]
+}
