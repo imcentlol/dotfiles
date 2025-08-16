@@ -1,6 +1,7 @@
 #!/bin/bash
 # must run as root
 yay -S --needed --noconfirm -< ./exported-packages
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cd ~
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
@@ -18,3 +19,5 @@ sudo chmod +x target/release/niri
 sudo mv target/release/niri /usr/bin/
 cd ~
 sudo npm install --global purer-prompt
+echo "autoload promptinit; promptinit" >> .zshrc
+echo "prompt purer" >> .zshrc
