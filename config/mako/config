@@ -11,6 +11,7 @@ outer-margin=0
 anchor=top-center
 text-alignment=left
 max-icon-size=48
+max-history=100
 [app-icon=/home/imcentlol/.config/waybar/icons/archlinux-512.png]
 width=170
 height=50

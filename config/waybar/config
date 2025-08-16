@@ -57,7 +57,8 @@
     "tooltip": false,
     "format": "󰥔  {0:%H:%M:%S    ||   %d-%m-%Y}",
     "interval": 1,
-    "on-click": "notify-send 'Keep going and you will achieve it!!' -t 3175 --urgency=critical && play $HOME/.config/mako/sounds/motivation.wav &"
+    "on-click": "notify-send 'Keep going and you will achieve it!!' -t 3175 --urgency=critical && play $HOME/.config/mako/sounds/motivation.wav &",
+    "on-click-right": "exec ~/.config/waybar/scripts/notification_restore.sh"
   },
 
   "network": {

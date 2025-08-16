@@ -2,4 +2,6 @@
 
 
 makoctl dismiss
-makoctl mode -s default && notify-send "Mode: Active" --icon="$HOME/.config/waybar/icons/archlinux-512.png" -t 1500
+makoctl mode -s default && notify-send "Mode: Active" --icon="$HOME/.config/waybar/icons/archlinux-512.png" -t 1600
+sleep 1.5
+makoctl dismiss -h
