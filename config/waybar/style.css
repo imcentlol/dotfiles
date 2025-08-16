@@ -1,12 +1,12 @@
-@define-color bar #1a1b26;
+@define-color bar #282828;
 @define-color bar-text #c6d0f5;
-@define-color background #A2AADB;
+@define-color background #ebdbb2;
 @define-color text #292a35;
-@define-color hover #898AC4;
-@define-color background-alt1 #F4F8D3;
-@define-color background-alt2 #FFCF96;
-@define-color hover-alt1 #cfc6b2;
-@define-color hover-alt2 #d4ac7d;
+@define-color hover #d5c4a1;
+@define-color background-alt1 #a7d4c3;
+@define-color background-alt2 #fabd2f;
+@define-color hover-alt1 #80baa4;
+@define-color hover-alt2 #d9a01c;
 @define-color active #a5d49f;
 @define-color dnd #FF8A8A;
 @define-color active-hover #8fbd8f;
@@ -106,7 +106,7 @@
 
 #custom-mode {
     margin-left: 0px; 
-    margin-right: 8px; 
+    margin-right: 5px; 
 }
 
 #custom-mode.active{

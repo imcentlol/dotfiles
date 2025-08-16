@@ -12,6 +12,6 @@ map ctrl+shift+backspace change_font_size all 0
 
 
 # BEGIN_KITTY_THEME
-# Alien Blood
+# Gruvbox Dark
 include current-theme.conf
 # END_KITTY_THEME
