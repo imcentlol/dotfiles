@@ -19,7 +19,7 @@
     "modules": [
 	{
 	    "type": "custom",
-	    "format": "{#35}imcentlol{#35}@{#35}arch"
+	    "format": "{#35}imcentlol{#35}@{#35}archlinux"
 	},    
 
 	{

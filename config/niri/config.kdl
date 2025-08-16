@@ -352,6 +352,7 @@ layer-rule{
 //Change environment variable
 environment{
     ELECTRON_OZONE_PLATFORM_HINT "auto"
+    ENABLE_FEATURES "UseOzonePlatform"
 }
 
 binds {
