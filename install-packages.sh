@@ -22,3 +22,4 @@ mkdir -p Pictures/Screenshots
 sudo npm install --global purer-prompt
 echo "autoload promptinit; promptinit" >> .zshrc
 echo "prompt purer" >> .zshrc
+chsh -s /usr/bin/zsh
