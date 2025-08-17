@@ -1,7 +1,7 @@
 
 # My personal dotfiles for daily workflow
 
-This dotfiles mainly use gruvbox color palette as its theme. And yes, Im a megumin simp.
+This dotfiles mainly uses gruvbox color palette as its theme. And yes, Im a megumin simp.
 
 Im still just a linux rookie so this configuration is kinda basic lol. The scripts given in the dotfiles are mainly used for clean installing arch.
 ## Screenshots
