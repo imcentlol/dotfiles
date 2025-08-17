@@ -21,9 +21,21 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1755409896,,"q"
+|2,0,1755418360,,"q"
 :w
-|2,0,1755409895,,"w"
+|2,0,1755418358,,"w"
+:e change.sh
+|2,0,1755418068,,"e change.sh"
+:e mode.sh
+|2,0,1755418052,,"e mode.sh"
+:e dnd.sh
+|2,0,1755417704,,"e dnd.sh"
+:e active.sh
+|2,0,1755416337,,"e active.sh"
+:term
+|2,0,1755405583,,"term"
+:4
+|2,0,1755410933,,"4"
 :w config
 |2,0,1755403125,,"w config"
 :r
@@ -120,6 +132,10 @@ $
 |2,0,1755355088,,"set cursorcolumn"
 
 # Search String History (newest to oldest):
+??transition
+|2,1,1755416763,63,"transition"
+??Mod+
+|2,1,1755416374,63,"Mod+"
 ??screen
 |2,1,1755405415,63,"screen"
 ??bind_to_address
@@ -166,273 +182,386 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
+"0	CHAR	0
+	printf '{"text": "󰂚  Active", "class": "active"}'
 	
-|3,0,0,1,1,0,1755403117,""
-""1	LINE	0
-	audio.stereo.enabled=false
-|3,1,1,1,1,0,1755403748,"audio.stereo.enabled=false"
+|3,0,0,0,2,0,1755418147,"printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'",""
+"1	LINE	0
+	    printf '{"text": "    DND ", "class": "dnd"}'
+|3,0,1,1,1,0,1755418305,"    printf '{\"text\": \"    DND \", \"class\": \"dnd\"}'"
 "2	LINE	0
-	visualizer.spectrum.falloff.weight=0.99
-|3,0,2,1,1,0,1755403735,"visualizer.spectrum.falloff.weight=0.99"
+	    printf '{"text": "󰂚  Active", "class": "active"}'
+|3,0,2,1,1,0,1755418303,"    printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
 "3	LINE	0
-	audio.stereo.enabled=false
-|3,0,3,1,1,0,1755403724,"audio.stereo.enabled=false"
-"4	CHAR	0
-	colors.scheme=gruvbox
 	
-|3,0,4,0,2,0,1755403715,"colors.scheme=gruvbox",""
-"5	LINE	0
+|3,0,3,1,1,0,1755418212,""
+"4	LINE	0
+	  	printf '{"text": "󰂚  Active", "class": "active"}'
+|3,0,4,1,1,0,1755418211,"  	printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
+"5	CHAR	0
+		exec $HOME/.config/waybar/scripts/dnd.sh
 	
-|3,0,5,1,1,0,1755403251,""
+|3,0,5,0,2,0,1755418202,"	exec $HOME/.config/waybar/scripts/dnd.sh",""
 "6	LINE	0
-	#B2865D
-|3,0,6,1,1,0,1755403250,"#B2865D"
+	
+|3,0,6,1,1,0,1755418180,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1755403140,""
+	if [ "$current_mode" == "dnd" -o "$current_mode" == "temp" ]; then
+|3,0,7,1,1,0,1755418080,"if [ \"$current_mode\" == \"dnd\" -o \"$current_mode\" == \"temp\" ]; then"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1755403140,""
+	 	printf '{"text": "󰂚  Active", "class": "game"}'
+|3,0,8,1,1,0,1755418074," 	printf '{\"text\": \"󰂚  Active\", \"class\": \"game\"}'"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1755403139,""
-"-	CHAR	0
-	stereo
-|3,0,36,0,1,0,1755399314,"stereo"
+	elif [ "$current_mode" == "game" ]; then	
+|3,0,9,1,1,0,1755418073,"elif [ \"$current_mode\" == \"game\" ]; then	"
+""-	CHAR	0
+	 -o "$current_mode" == "temp" 
+|3,1,36,0,1,0,1755418328," -o \"$current_mode\" == \"temp\" "
 
 # File marks:
-'0  62  0  ~/dotfiles/README.md
-|4,48,62,0,1755409896,"~/dotfiles/README.md"
-'1  6  5  ~/dotfiles/install-config.sh
-|4,49,6,5,1755406264,"~/dotfiles/install-config.sh"
-'2  7  17  ~/dotfiles/export-config.sh
-|4,50,7,17,1755406145,"~/dotfiles/export-config.sh"
-'3  21  28  ~/dotfiles/install-packages.sh
-|4,51,21,28,1755406067,"~/dotfiles/install-packages.sh"
-'4  603  16  ~/.config/niri/config.kdl
-|4,52,603,16,1755406061,"~/.config/niri/config.kdl"
-'5  6  35  ~/.config/vis/config
-|4,53,6,35,1755405855,"~/.config/vis/config"
-'6  1  6  ~/dotfiles/install-config.sh
-|4,54,1,6,1755405314,"~/dotfiles/install-config.sh"
-'7  1  6  ~/dotfiles/install-config.sh
-|4,55,1,6,1755405314,"~/dotfiles/install-config.sh"
-'8  10  0  ~/.config/vis/config
-|4,56,10,0,1755404682,"~/.config/vis/config"
-'9  10  0  ~/.config/vis/config
-|4,57,10,0,1755404682,"~/.config/vis/config"
+'0  5  0  ~/.config/waybar/scripts/active.sh
+|4,48,5,0,1755418360,"~/.config/waybar/scripts/active.sh"
+'1  3  29  ~/.config/waybar/scripts/mode.sh
+|4,49,3,29,1755418334,"~/.config/waybar/scripts/mode.sh"
+'2  7  1  ~/.config/waybar/scripts/change.sh
+|4,50,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
+'3  43  4  ~/.config/waybar/style.css
+|4,51,43,4,1755417332,"~/.config/waybar/style.css"
+'4  552  4  ~/.config/niri/config.kdl
+|4,52,552,4,1755416924,"~/.config/niri/config.kdl"
+'5  57  26  ~/dotfiles/README.md
+|4,53,57,26,1755411034,"~/dotfiles/README.md"
+'6  4  24  ~/dotfiles/README.md
+|4,54,4,24,1755410940,"~/dotfiles/README.md"
+'7  4  24  ~/dotfiles/README.md
+|4,55,4,24,1755410940,"~/dotfiles/README.md"
+'8  60  0  ~/dotfiles/exported-packages
+|4,56,60,0,1755410167,"~/dotfiles/exported-packages"
+'9  25  19  ~/dotfiles/install-packages.sh
+|4,57,25,19,1755410030,"~/dotfiles/install-packages.sh"
 
 # Jumplist (newest first):
--'  62  0  ~/dotfiles/README.md
-|4,39,62,0,1755409896,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1755409892,"~/dotfiles/README.md"
--'  6  5  ~/dotfiles/install-config.sh
-|4,39,6,5,1755406264,"~/dotfiles/install-config.sh"
--'  6  5  ~/dotfiles/install-config.sh
-|4,39,6,5,1755406264,"~/dotfiles/install-config.sh"
--'  1  0  ~/dotfiles/install-config.sh
-|4,39,1,0,1755406161,"~/dotfiles/install-config.sh"
--'  1  0  ~/dotfiles/install-config.sh
-|4,39,1,0,1755406161,"~/dotfiles/install-config.sh"
--'  7  17  ~/dotfiles/export-config.sh
-|4,39,7,17,1755406145,"~/dotfiles/export-config.sh"
--'  7  17  ~/dotfiles/export-config.sh
-|4,39,7,17,1755406145,"~/dotfiles/export-config.sh"
--'  7  17  ~/dotfiles/export-config.sh
-|4,39,7,17,1755406145,"~/dotfiles/export-config.sh"
--'  7  17  ~/dotfiles/export-config.sh
-|4,39,7,17,1755406145,"~/dotfiles/export-config.sh"
--'  21  28  ~/dotfiles/install-packages.sh
-|4,39,21,28,1755406067,"~/dotfiles/install-packages.sh"
--'  21  28  ~/dotfiles/install-packages.sh
-|4,39,21,28,1755406067,"~/dotfiles/install-packages.sh"
--'  21  28  ~/dotfiles/install-packages.sh
-|4,39,21,28,1755406067,"~/dotfiles/install-packages.sh"
--'  21  28  ~/dotfiles/install-packages.sh
-|4,39,21,28,1755406067,"~/dotfiles/install-packages.sh"
--'  603  16  ~/.config/niri/config.kdl
-|4,39,603,16,1755406061,"~/.config/niri/config.kdl"
--'  603  16  ~/.config/niri/config.kdl
-|4,39,603,16,1755406061,"~/.config/niri/config.kdl"
--'  603  16  ~/.config/niri/config.kdl
-|4,39,603,16,1755406061,"~/.config/niri/config.kdl"
--'  603  16  ~/.config/niri/config.kdl
-|4,39,603,16,1755406061,"~/.config/niri/config.kdl"
--'  1  0  ~/dotfiles/export-config.sh
-|4,39,1,0,1755405956,"~/dotfiles/export-config.sh"
--'  1  0  ~/dotfiles/export-config.sh
-|4,39,1,0,1755405956,"~/dotfiles/export-config.sh"
--'  1  0  ~/dotfiles/export-config.sh
-|4,39,1,0,1755405956,"~/dotfiles/export-config.sh"
--'  1  0  ~/dotfiles/export-config.sh
-|4,39,1,0,1755405956,"~/dotfiles/export-config.sh"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  6  35  ~/.config/vis/config
-|4,39,6,35,1755405855,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755405568,"~/.config/vis/config"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755405415,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755405415,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755405415,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755405415,"~/.config/niri/config.kdl"
--'  1  0  ~/dotfiles/install-packages.sh
-|4,39,1,0,1755405330,"~/dotfiles/install-packages.sh"
--'  1  0  ~/dotfiles/install-packages.sh
-|4,39,1,0,1755405330,"~/dotfiles/install-packages.sh"
--'  1  0  ~/dotfiles/install-packages.sh
-|4,39,1,0,1755405330,"~/dotfiles/install-packages.sh"
--'  1  0  ~/dotfiles/install-packages.sh
-|4,39,1,0,1755405330,"~/dotfiles/install-packages.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  1  6  ~/dotfiles/install-config.sh
-|4,39,1,6,1755405314,"~/dotfiles/install-config.sh"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  10  0  ~/.config/vis/config
-|4,39,10,0,1755404682,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755403741,"~/.config/vis/config"
--'  1  0  ~/.config/vis/config
-|4,39,1,0,1755403741,"~/.config/vis/config"
+-'  5  0  ~/.config/waybar/scripts/active.sh
+|4,39,5,0,1755418360,"~/.config/waybar/scripts/active.sh"
+-'  1  0  ~/.config/waybar/scripts/active.sh
+|4,39,1,0,1755418343,"~/.config/waybar/scripts/active.sh"
+-'  3  29  ~/.config/waybar/scripts/mode.sh
+|4,39,3,29,1755418334,"~/.config/waybar/scripts/mode.sh"
+-'  3  29  ~/.config/waybar/scripts/mode.sh
+|4,39,3,29,1755418334,"~/.config/waybar/scripts/mode.sh"
+-'  1  0  ~/.config/waybar/scripts/mode.sh
+|4,39,1,0,1755418322,"~/.config/waybar/scripts/mode.sh"
+-'  1  0  ~/.config/waybar/scripts/mode.sh
+|4,39,1,0,1755418322,"~/.config/waybar/scripts/mode.sh"
+-'  7  1  ~/.config/waybar/scripts/change.sh
+|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
+-'  7  1  ~/.config/waybar/scripts/change.sh
+|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
+-'  7  1  ~/.config/waybar/scripts/change.sh
+|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
+-'  7  1  ~/.config/waybar/scripts/change.sh
+|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
+-'  4  70  ~/.config/waybar/scripts/change.sh
+|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
+-'  4  70  ~/.config/waybar/scripts/change.sh
+|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
+-'  4  70  ~/.config/waybar/scripts/change.sh
+|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
+-'  4  70  ~/.config/waybar/scripts/change.sh
+|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
+-'  4  6  ~/.config/waybar/scripts/dnd.sh
+|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
+-'  4  6  ~/.config/waybar/scripts/dnd.sh
+|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
+-'  4  6  ~/.config/waybar/scripts/dnd.sh
+|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
+-'  4  6  ~/.config/waybar/scripts/dnd.sh
+|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
+-'  43  4  ~/.config/waybar/style.css
+|4,39,43,4,1755417332,"~/.config/waybar/style.css"
+-'  43  4  ~/.config/waybar/style.css
+|4,39,43,4,1755417332,"~/.config/waybar/style.css"
+-'  43  4  ~/.config/waybar/style.css
+|4,39,43,4,1755417332,"~/.config/waybar/style.css"
+-'  43  4  ~/.config/waybar/style.css
+|4,39,43,4,1755417332,"~/.config/waybar/style.css"
+-'  552  4  ~/.config/niri/config.kdl
+|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
+-'  552  4  ~/.config/niri/config.kdl
+|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
+-'  552  4  ~/.config/niri/config.kdl
+|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
+-'  552  4  ~/.config/niri/config.kdl
+|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
+-'  53  3  ~/.config/waybar/style.css
+|4,39,53,3,1755416763,"~/.config/waybar/style.css"
+-'  53  3  ~/.config/waybar/style.css
+|4,39,53,3,1755416763,"~/.config/waybar/style.css"
+-'  53  3  ~/.config/waybar/style.css
+|4,39,53,3,1755416763,"~/.config/waybar/style.css"
+-'  53  3  ~/.config/waybar/style.css
+|4,39,53,3,1755416763,"~/.config/waybar/style.css"
+-'  1  0  ~/.config/waybar/style.css
+|4,39,1,0,1755416749,"~/.config/waybar/style.css"
+-'  1  0  ~/.config/waybar/style.css
+|4,39,1,0,1755416749,"~/.config/waybar/style.css"
+-'  1  0  ~/.config/waybar/style.css
+|4,39,1,0,1755416749,"~/.config/waybar/style.css"
+-'  1  0  ~/.config/waybar/style.css
+|4,39,1,0,1755416749,"~/.config/waybar/style.css"
+-'  554  4  ~/.config/niri/config.kdl
+|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
+-'  555  4  ~/.config/niri/config.kdl
+|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
+-'  556  4  ~/.config/niri/config.kdl
+|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
+-'  554  4  ~/.config/niri/config.kdl
+|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
+-'  555  4  ~/.config/niri/config.kdl
+|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
+-'  556  4  ~/.config/niri/config.kdl
+|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
+-'  554  4  ~/.config/niri/config.kdl
+|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
+-'  555  4  ~/.config/niri/config.kdl
+|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
+-'  556  4  ~/.config/niri/config.kdl
+|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
+-'  554  4  ~/.config/niri/config.kdl
+|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
+-'  555  4  ~/.config/niri/config.kdl
+|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
+-'  556  4  ~/.config/niri/config.kdl
+|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
+-'  557  4  ~/.config/niri/config.kdl
+|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
+-'  558  4  ~/.config/niri/config.kdl
+|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
+-'  557  4  ~/.config/niri/config.kdl
+|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
+-'  558  4  ~/.config/niri/config.kdl
+|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
+-'  557  4  ~/.config/niri/config.kdl
+|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
+-'  558  4  ~/.config/niri/config.kdl
+|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
+-'  557  4  ~/.config/niri/config.kdl
+|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
+-'  558  4  ~/.config/niri/config.kdl
+|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
+-'  562  4  ~/.config/niri/config.kdl
+|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
+-'  564  4  ~/.config/niri/config.kdl
+|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
+-'  562  4  ~/.config/niri/config.kdl
+|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
+-'  564  4  ~/.config/niri/config.kdl
+|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
+-'  562  4  ~/.config/niri/config.kdl
+|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
+-'  564  4  ~/.config/niri/config.kdl
+|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
+-'  562  4  ~/.config/niri/config.kdl
+|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
+-'  564  4  ~/.config/niri/config.kdl
+|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
+-'  549  4  ~/.config/niri/config.kdl
+|4,39,549,4,1755416391,"~/.config/niri/config.kdl"
+-'  547  4  ~/.config/niri/config.kdl
+|4,39,547,4,1755416391,"~/.config/niri/config.kdl"
+-'  544  4  ~/.config/niri/config.kdl
+|4,39,544,4,1755416391,"~/.config/niri/config.kdl"
+-'  542  4  ~/.config/niri/config.kdl
+|4,39,542,4,1755416391,"~/.config/niri/config.kdl"
+-'  539  4  ~/.config/niri/config.kdl
+|4,39,539,4,1755416391,"~/.config/niri/config.kdl"
+-'  538  4  ~/.config/niri/config.kdl
+|4,39,538,4,1755416391,"~/.config/niri/config.kdl"
+-'  533  7  ~/.config/niri/config.kdl
+|4,39,533,7,1755416391,"~/.config/niri/config.kdl"
+-'  530  7  ~/.config/niri/config.kdl
+|4,39,530,7,1755416391,"~/.config/niri/config.kdl"
+-'  527  4  ~/.config/niri/config.kdl
+|4,39,527,4,1755416391,"~/.config/niri/config.kdl"
+-'  526  4  ~/.config/niri/config.kdl
+|4,39,526,4,1755416391,"~/.config/niri/config.kdl"
+-'  525  4  ~/.config/niri/config.kdl
+|4,39,525,4,1755416391,"~/.config/niri/config.kdl"
+-'  524  4  ~/.config/niri/config.kdl
+|4,39,524,4,1755416391,"~/.config/niri/config.kdl"
+-'  523  4  ~/.config/niri/config.kdl
+|4,39,523,4,1755416391,"~/.config/niri/config.kdl"
+-'  522  4  ~/.config/niri/config.kdl
+|4,39,522,4,1755416391,"~/.config/niri/config.kdl"
+-'  521  4  ~/.config/niri/config.kdl
+|4,39,521,4,1755416391,"~/.config/niri/config.kdl"
+-'  520  4  ~/.config/niri/config.kdl
+|4,39,520,4,1755416391,"~/.config/niri/config.kdl"
+-'  519  4  ~/.config/niri/config.kdl
+|4,39,519,4,1755416391,"~/.config/niri/config.kdl"
+-'  518  4  ~/.config/niri/config.kdl
+|4,39,518,4,1755416391,"~/.config/niri/config.kdl"
+-'  517  4  ~/.config/niri/config.kdl
+|4,39,517,4,1755416391,"~/.config/niri/config.kdl"
+-'  549  4  ~/.config/niri/config.kdl
+|4,39,549,4,1755416391,"~/.config/niri/config.kdl"
+-'  547  4  ~/.config/niri/config.kdl
+|4,39,547,4,1755416391,"~/.config/niri/config.kdl"
+-'  544  4  ~/.config/niri/config.kdl
+|4,39,544,4,1755416391,"~/.config/niri/config.kdl"
+-'  542  4  ~/.config/niri/config.kdl
+|4,39,542,4,1755416391,"~/.config/niri/config.kdl"
+-'  539  4  ~/.config/niri/config.kdl
+|4,39,539,4,1755416391,"~/.config/niri/config.kdl"
+-'  538  4  ~/.config/niri/config.kdl
+|4,39,538,4,1755416391,"~/.config/niri/config.kdl"
+-'  533  7  ~/.config/niri/config.kdl
+|4,39,533,7,1755416391,"~/.config/niri/config.kdl"
+-'  530  7  ~/.config/niri/config.kdl
+|4,39,530,7,1755416391,"~/.config/niri/config.kdl"
+-'  527  4  ~/.config/niri/config.kdl
+|4,39,527,4,1755416391,"~/.config/niri/config.kdl"
+-'  526  4  ~/.config/niri/config.kdl
+|4,39,526,4,1755416391,"~/.config/niri/config.kdl"
+-'  525  4  ~/.config/niri/config.kdl
+|4,39,525,4,1755416391,"~/.config/niri/config.kdl"
+-'  524  4  ~/.config/niri/config.kdl
+|4,39,524,4,1755416391,"~/.config/niri/config.kdl"
+-'  523  4  ~/.config/niri/config.kdl
+|4,39,523,4,1755416391,"~/.config/niri/config.kdl"
+-'  522  4  ~/.config/niri/config.kdl
+|4,39,522,4,1755416391,"~/.config/niri/config.kdl"
+-'  521  4  ~/.config/niri/config.kdl
+|4,39,521,4,1755416391,"~/.config/niri/config.kdl"
+-'  520  4  ~/.config/niri/config.kdl
+|4,39,520,4,1755416391,"~/.config/niri/config.kdl"
+-'  519  4  ~/.config/niri/config.kdl
+|4,39,519,4,1755416391,"~/.config/niri/config.kdl"
+-'  518  4  ~/.config/niri/config.kdl
+|4,39,518,4,1755416391,"~/.config/niri/config.kdl"
+-'  517  4  ~/.config/niri/config.kdl
+|4,39,517,4,1755416391,"~/.config/niri/config.kdl"
 
 # History of marks within files (newest to oldest):
 
+> ~/.config/waybar/scripts/active.sh
+	*	1755418358	0
+	"	5	0
+	^	5	0
+	.	4	25
+	+	2	0
+	+	6	0
+	+	4	0
+	+	2	0
+	+	3	50
+	+	3	2
+	+	3	25
+	+	3	17
+	+	7	17
+	+	3	16
+	+	3	20
+	+	3	29
+	+	4	0
+	+	3	51
+	+	4	25
+
+> ~/.config/waybar/scripts/mode.sh
+	*	1755418333	0
+	"	3	29
+	^	3	30
+	.	3	29
+	+	7	0
+	+	3	29
+
+> ~/.config/waybar/scripts/change.sh
+	*	1755418318	0
+	"	7	1
+	^	6	0
+	.	6	0
+	+	7	0
+	+	3	29
+	+	4	44
+	+	6	3
+	+	4	100
+	+	5	0
+	+	3	29
+	+	4	48
+	+	4	0
+	+	5	0
+	+	4	3
+	+	6	52
+	+	6	0
+	+	7	0
+	+	4	0
+	+	6	0
+
+> ~/.config/waybar/scripts/dnd.sh
+	*	1755418066	0
+	"	4	6
+	.	3	0
+	+	4	0
+	+	8	0
+	+	5	110
+	+	2	0
+	+	2	6
+	+	8	0
+	+	7	17
+	+	2	1
+	+	2	23
+	+	2	29
+	+	3	57
+	+	3	0
+
+> ~/.config/waybar/style.css
+	*	1755417330	0
+	"	43	4
+	^	4	26
+	.	4	25
+	+	1	24
+	+	3	31
+	+	5	26
+	+	6	36
+	+	8	0
+	+	6	36
+	+	8	31
+	+	7	36
+	+	9	31
+	+	7	36
+	+	9	31
+	+	6	30
+	+	8	25
+	+	109	18
+	+	4	25
+
+> ~/.config/niri/config.kdl
+	*	1755416924	0
+	"	552	4
+	^	200	15
+	.	200	14
+	+	201	28
+	+	202	30
+	+	200	14
+
 > ~/dotfiles/README.md
-	*	1755409895	0
-	"	62	0
-	^	62	0
-	.	61	93
+	*	1755411033	0
+	"	57	26
+	^	57	27
+	.	57	26
 	+	61	93
+	+	4	24
+	+	57	26
+
+> ~/dotfiles/exported-packages
+	*	1755410166	0
+	"	60	0
+
+> ~/dotfiles/install-packages.sh
+	*	1755410029	0
+	"	25	19
+	^	25	20
+	.	25	19
+	+	21	28
+	+	25	19
 
 > ~/dotfiles/install-config.sh
 	*	1755406264	0
@@ -459,22 +588,6 @@ $
 	+	7	15
 	+	6	14
 	+	7	17
-
-> ~/dotfiles/install-packages.sh
-	*	1755406066	0
-	"	21	28
-	^	21	29
-	.	21	28
-	+	21	28
-
-> ~/.config/niri/config.kdl
-	*	1755406058	0
-	"	603	16
-	^	200	15
-	.	200	14
-	+	201	28
-	+	202	30
-	+	200	14
 
 > ~/.config/vis/config
 	*	1755405808	0
@@ -524,6 +637,20 @@ $
 	+	1	30
 	+	10	0
 	+	6	35
+
+> ~/main.cpp
+	*	1755405743	0
+	"	7	0
+	^	6	31
+	.	6	30
+	+	13	0
+	+	12	6
+	+	1	24
+	+	7	0
+	+	6	0
+	+	7	0
+	+	3	19
+	+	6	30
 
 > ~/.config/vis/colors/gruvbox
 	*	1755403252	0
@@ -706,38 +833,9 @@ $
 	+	18	0
 	+	23	10
 
-> ~/.config/waybar/style.css
-	*	1755398059	0
-	"	6	0
-	^	4	26
-	.	4	25
-	+	1	24
-	+	3	31
-	+	5	26
-	+	6	36
-	+	8	0
-	+	6	36
-	+	8	31
-	+	7	36
-	+	9	31
-	+	7	36
-	+	9	31
-	+	6	30
-	+	8	25
-	+	109	18
-	+	4	25
-
 > /usr/share/vim/vim91/doc/filetype.txt
 	*	1755397718	0
 	"	300	24
-
-> ~/main.cpp
-	*	1755397550	0
-	"	6	6
-	^	6	7
-	.	6	6
-	+	7	0
-	+	6	6
 
 > ~/.config/fuzzel/themes/gruvbox.ini
 	*	1755397460	0
@@ -783,37 +881,6 @@ $
 	+	3	23
 	+	4	19
 	+	3	23
-
-> ~/.config/waybar/scripts/dnd.sh
-	*	1755361527	0
-	"	8	0
-	^	8	0
-	.	7	1
-	+	9	0
-	+	13	0
-	+	10	110
-	+	2	0
-	+	3	0
-	+	8	0
-	+	3	6
-	+	13	0
-	+	12	17
-	+	7	1
-
-> ~/.config/waybar/scripts/active.sh
-	*	1755361526	0
-	"	11	17
-	^	11	18
-	.	11	17
-	+	2	0
-	+	10	0
-	+	9	0
-	+	2	0
-	+	3	50
-	+	7	2
-	+	4	25
-	+	5	17
-	+	11	17
 
 > ~/.config/kitty/kitty.conf
 	*	1755357936	0

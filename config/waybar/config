@@ -89,8 +89,8 @@
     "return-type": "json",
     "tooltip": false,
     "interval": 1,
-    "exec": "$HOME/.config/waybar/scripts/mode.sh",
-    "on-click": "exec $HOME/.config/waybar/scripts/change.sh",
+    "exec": "$HOME/.config/waybar/scripts/mode.sh &",
+    "on-click": "exec $HOME/.config/waybar/scripts/change.sh &",
   },
 
   "custom/uptime": {
