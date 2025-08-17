@@ -18,6 +18,7 @@ cargo build --release
 sudo chmod +x target/release/niri
 sudo mv target/release/niri /usr/bin/
 cd ~
+mkdir -p Pictures/Screenshots
 sudo npm install --global purer-prompt
 echo "autoload promptinit; promptinit" >> .zshrc
 echo "prompt purer" >> .zshrc

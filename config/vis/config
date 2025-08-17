@@ -1,0 +1,13 @@
+visualizer.spectrum.bar.width=3 
+visualizer.spectrum.bar.spacing=1
+visualizer.spectrum.color.scheme=gruvbox
+visualizer.spectrum.top.margin=0.1
+visualizer.spectrum.bottom.margin=0 
+visualizer.spectrum.left.margin=0.02 
+visualizer.spectrum.right.margin=0.0
+visualizer.sgs.smoothing.points=3
+visualizer.sgs.smoothing.passes=1
+#visualizer.spectrum.falloff.weight=0.99
+
+audio.stereo.enabled=false
+colors.scheme=gruvbox

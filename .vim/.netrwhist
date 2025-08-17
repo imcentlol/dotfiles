@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/imcentlol/.config/vis'
+let g:netrw_dirhist_3='/home/imcentlol/.config/cava'
+let g:netrw_dirhist_2='/home/imcentlol/.config/fuzzel'
+let g:netrw_dirhist_1='/home/imcentlol/.config/niri'
