@@ -54,7 +54,7 @@ Finally, just make sure to enable all the following services
 | Bar | Waybar
 | Notification | Mako
 | Audio Visualizer | Cli-visualizer
-| Media player daemon | mpd
+| Media player daemon | MPD
 
 ## Support
 
