@@ -13,7 +13,7 @@
 @define-color dnd-hover #d47272;
 
 *{
-    font-family: 'SF Pro Text', 'Inter', 'Segoe UI, NotoSans Nerd Font', sans-serif;
+    font-family: 'Segoe UI', 'Symbols Nerd Font';
     font-size: 20px;
     min-height: 0;
     padding-right: 0px;
@@ -45,6 +45,7 @@
 
 #workspaces {
     padding: 2px;
+    padding-left: 2px;
     margin-left: 5px; 
     margin-right: 0px; 
 }
@@ -199,7 +200,7 @@
     border-radius: 3px 0px 0px 3px;
 }
 
-#pulseaudio{
+#battery{
     border-radius: 0px 3px 3px 0px;
     margin-right: 5px;
 }
@@ -225,19 +226,10 @@
     font-size: 16px;
 }
 #bluetooth.on {
-    color: #2196f3;
+    color: @text;
 }
 #bluetooth.connected {
-    color: #99d1db;
-}
-#battery {
-    color: #99d1db;;
-}
-#battery.charging {
-    color: #a6d189;
-}
-#battery.warning:not(.charging) {
-    color: #e78284;
+    color: @text;
 }
 
 /* --- Tooltip Styles --- */

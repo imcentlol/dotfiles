@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/bind_to_address
+~MSle0~/font
 
 # Last Substitute Search Pattern:
 ~MSle0&dark
@@ -21,9 +21,17 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1755418360,,"q"
+|2,0,1755526950,,"q"
 :w
-|2,0,1755418358,,"w"
+|2,0,1755526949,,"w"
+:e .config/waybar/style.css
+|2,0,1755511783,,"e .config/waybar/style.css"
+:e ~/.config/waybar/config
+|2,0,1755504525,,"e ~/.config/waybar/config"
+:term
+|2,0,1755503970,,"term"
+:PlugInstall
+|2,0,1755503314,,"PlugInstall"
 :e change.sh
 |2,0,1755418068,,"e change.sh"
 :e mode.sh
@@ -32,8 +40,6 @@ $
 |2,0,1755417704,,"e dnd.sh"
 :e active.sh
 |2,0,1755416337,,"e active.sh"
-:term
-|2,0,1755405583,,"term"
 :4
 |2,0,1755410933,,"4"
 :w config
@@ -78,8 +84,6 @@ $
 |2,0,1755398199,,"grep face"
 :Files
 |2,0,1755398108,,"Files"
-:PlugInstall
-|2,0,1755398066,,"PlugInstall"
 :q!
 |2,0,1755397922,,"q!"
 :'<,'>q
@@ -132,6 +136,16 @@ $
 |2,0,1755355088,,"set cursorcolumn"
 
 # Search String History (newest to oldest):
+??font
+|2,1,1755525817,63,"font"
+??icon
+|2,1,1755525811,63,"icon"
+??batter
+|2,1,1755504408,63,"batter"
+??back
+|2,1,1755504141,63,"back"
+??brightnes
+|2,1,1755504139,63,"brightnes"
 ??transition
 |2,1,1755416763,63,"transition"
 ??Mod+
@@ -182,267 +196,414 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	printf '{"text": "󰂚  Active", "class": "active"}'
+"0	LINE	0
+	ZSH_THEME="robbyrussell"
 	
-|3,0,0,0,2,0,1755418147,"printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'",""
-"1	LINE	0
-	    printf '{"text": "    DND ", "class": "dnd"}'
-|3,0,1,1,1,0,1755418305,"    printf '{\"text\": \"    DND \", \"class\": \"dnd\"}'"
+|3,0,0,1,2,0,1755504218,"ZSH_THEME=\"robbyrussell\"",""
+"1	CHAR	0
+	 ",
+	        "format-charging": " {cap
+|3,0,1,0,2,0,1755506469," \",","        \"format-charging\": \" {cap"
 "2	LINE	0
-	    printf '{"text": "󰂚  Active", "class": "active"}'
-|3,0,2,1,1,0,1755418303,"    printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
-"3	LINE	0
 	
-|3,0,3,1,1,0,1755418212,""
+|3,0,2,1,1,0,1755504422,""
+"3	CHAR	0
+	#battery {
+	    color: #99d1db;;
+	}
+	#battery.charging {
+	    color: #a6d189;
+	}
+	#battery.warning:not(.charging) {
+	    color: #e78284;
+	}
+|3,0,3,0,9,0,1755504421,"#battery {","    color: #99d1db;;","}","#battery.charging {","    color: #a6d189;","}","#battery.warning:not(.charging) {","    color: #e78284;","}"
 "4	LINE	0
+	ZSH_THEME="robbyrussell"
+	
+|3,0,4,1,2,0,1755503405,"ZSH_THEME=\"robbyrussell\"",""
+"5	LINE	0
+	    printf '{"text": "    DND ", "class": "dnd"}'
+|3,0,5,1,1,0,1755418305,"    printf '{\"text\": \"    DND \", \"class\": \"dnd\"}'"
+"6	LINE	0
+	    printf '{"text": "󰂚  Active", "class": "active"}'
+|3,0,6,1,1,0,1755418303,"    printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
+"7	LINE	0
+	
+|3,0,7,1,1,0,1755418212,""
+"8	LINE	0
 	  	printf '{"text": "󰂚  Active", "class": "active"}'
-|3,0,4,1,1,0,1755418211,"  	printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
-"5	CHAR	0
+|3,0,8,1,1,0,1755418211,"  	printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
+"9	CHAR	0
 		exec $HOME/.config/waybar/scripts/dnd.sh
 	
-|3,0,5,0,2,0,1755418202,"	exec $HOME/.config/waybar/scripts/dnd.sh",""
-"6	LINE	0
-	
-|3,0,6,1,1,0,1755418180,""
-"7	LINE	0
-	if [ "$current_mode" == "dnd" -o "$current_mode" == "temp" ]; then
-|3,0,7,1,1,0,1755418080,"if [ \"$current_mode\" == \"dnd\" -o \"$current_mode\" == \"temp\" ]; then"
-"8	LINE	0
-	 	printf '{"text": "󰂚  Active", "class": "game"}'
-|3,0,8,1,1,0,1755418074," 	printf '{\"text\": \"󰂚  Active\", \"class\": \"game\"}'"
-"9	LINE	0
-	elif [ "$current_mode" == "game" ]; then	
-|3,0,9,1,1,0,1755418073,"elif [ \"$current_mode\" == \"game\" ]; then	"
+|3,0,9,0,2,0,1755418202,"	exec $HOME/.config/waybar/scripts/dnd.sh",""
 ""-	CHAR	0
-	 -o "$current_mode" == "temp" 
-|3,1,36,0,1,0,1755418328," -o \"$current_mode\" == \"temp\" "
+	, NotoSans Nerd Font
+|3,1,36,0,1,0,1755525963,", NotoSans Nerd Font"
 
 # File marks:
-'0  5  0  ~/.config/waybar/scripts/active.sh
-|4,48,5,0,1755418360,"~/.config/waybar/scripts/active.sh"
-'1  3  29  ~/.config/waybar/scripts/mode.sh
-|4,49,3,29,1755418334,"~/.config/waybar/scripts/mode.sh"
-'2  7  1  ~/.config/waybar/scripts/change.sh
-|4,50,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
-'3  43  4  ~/.config/waybar/style.css
-|4,51,43,4,1755417332,"~/.config/waybar/style.css"
-'4  552  4  ~/.config/niri/config.kdl
-|4,52,552,4,1755416924,"~/.config/niri/config.kdl"
-'5  57  26  ~/dotfiles/README.md
-|4,53,57,26,1755411034,"~/dotfiles/README.md"
-'6  4  24  ~/dotfiles/README.md
-|4,54,4,24,1755410940,"~/dotfiles/README.md"
-'7  4  24  ~/dotfiles/README.md
-|4,55,4,24,1755410940,"~/dotfiles/README.md"
-'8  60  0  ~/dotfiles/exported-packages
-|4,56,60,0,1755410167,"~/dotfiles/exported-packages"
-'9  25  19  ~/dotfiles/install-packages.sh
-|4,57,25,19,1755410030,"~/dotfiles/install-packages.sh"
+'0  16  47  ~/.config/waybar/style.css
+|4,48,16,47,1755526950,"~/.config/waybar/style.css"
+'1  4  18  ~/.config/waybar/scripts/mode.sh
+|4,49,4,18,1755526913,"~/.config/waybar/scripts/mode.sh"
+'2  1  0  ~/.config/waybar/scripts/mode
+|4,50,1,0,1755526839,"~/.config/waybar/scripts/mode"
+'3  38  17  ~/.config/waybar/config
+|4,51,38,17,1755526750,"~/.config/waybar/config"
+'4  31  14  ~/.config/waybar/config
+|4,52,31,14,1755526430,"~/.config/waybar/config"
+'5  31  14  ~/.config/waybar/config
+|4,53,31,14,1755526430,"~/.config/waybar/config"
+'6  28  5  ~/.config/waybar/config
+|4,54,28,5,1755526351,"~/.config/waybar/config"
+'7  28  5  ~/.config/waybar/config
+|4,55,28,5,1755526351,"~/.config/waybar/config"
+'8  28  5  ~/.config/waybar/config
+|4,56,28,5,1755526351,"~/.config/waybar/config"
+'9  28  5  ~/.config/waybar/config
+|4,57,28,5,1755526351,"~/.config/waybar/config"
 
 # Jumplist (newest first):
--'  5  0  ~/.config/waybar/scripts/active.sh
-|4,39,5,0,1755418360,"~/.config/waybar/scripts/active.sh"
--'  1  0  ~/.config/waybar/scripts/active.sh
-|4,39,1,0,1755418343,"~/.config/waybar/scripts/active.sh"
--'  3  29  ~/.config/waybar/scripts/mode.sh
-|4,39,3,29,1755418334,"~/.config/waybar/scripts/mode.sh"
--'  3  29  ~/.config/waybar/scripts/mode.sh
-|4,39,3,29,1755418334,"~/.config/waybar/scripts/mode.sh"
+-'  16  47  ~/.config/waybar/style.css
+|4,39,16,47,1755526950,"~/.config/waybar/style.css"
+-'  4  18  ~/.config/waybar/scripts/mode.sh
+|4,39,4,18,1755526913,"~/.config/waybar/scripts/mode.sh"
 -'  1  0  ~/.config/waybar/scripts/mode.sh
-|4,39,1,0,1755418322,"~/.config/waybar/scripts/mode.sh"
--'  1  0  ~/.config/waybar/scripts/mode.sh
-|4,39,1,0,1755418322,"~/.config/waybar/scripts/mode.sh"
--'  7  1  ~/.config/waybar/scripts/change.sh
-|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
--'  7  1  ~/.config/waybar/scripts/change.sh
-|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
--'  7  1  ~/.config/waybar/scripts/change.sh
-|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
--'  7  1  ~/.config/waybar/scripts/change.sh
-|4,39,7,1,1755418318,"~/.config/waybar/scripts/change.sh"
--'  4  70  ~/.config/waybar/scripts/change.sh
-|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
--'  4  70  ~/.config/waybar/scripts/change.sh
-|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
--'  4  70  ~/.config/waybar/scripts/change.sh
-|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
--'  4  70  ~/.config/waybar/scripts/change.sh
-|4,39,4,70,1755418133,"~/.config/waybar/scripts/change.sh"
--'  4  6  ~/.config/waybar/scripts/dnd.sh
-|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
--'  4  6  ~/.config/waybar/scripts/dnd.sh
-|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
--'  4  6  ~/.config/waybar/scripts/dnd.sh
-|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
--'  4  6  ~/.config/waybar/scripts/dnd.sh
-|4,39,4,6,1755418068,"~/.config/waybar/scripts/dnd.sh"
--'  43  4  ~/.config/waybar/style.css
-|4,39,43,4,1755417332,"~/.config/waybar/style.css"
--'  43  4  ~/.config/waybar/style.css
-|4,39,43,4,1755417332,"~/.config/waybar/style.css"
--'  43  4  ~/.config/waybar/style.css
-|4,39,43,4,1755417332,"~/.config/waybar/style.css"
--'  43  4  ~/.config/waybar/style.css
-|4,39,43,4,1755417332,"~/.config/waybar/style.css"
--'  552  4  ~/.config/niri/config.kdl
-|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
--'  552  4  ~/.config/niri/config.kdl
-|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
--'  552  4  ~/.config/niri/config.kdl
-|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
--'  552  4  ~/.config/niri/config.kdl
-|4,39,552,4,1755416924,"~/.config/niri/config.kdl"
--'  53  3  ~/.config/waybar/style.css
-|4,39,53,3,1755416763,"~/.config/waybar/style.css"
--'  53  3  ~/.config/waybar/style.css
-|4,39,53,3,1755416763,"~/.config/waybar/style.css"
--'  53  3  ~/.config/waybar/style.css
-|4,39,53,3,1755416763,"~/.config/waybar/style.css"
--'  53  3  ~/.config/waybar/style.css
-|4,39,53,3,1755416763,"~/.config/waybar/style.css"
--'  1  0  ~/.config/waybar/style.css
-|4,39,1,0,1755416749,"~/.config/waybar/style.css"
--'  1  0  ~/.config/waybar/style.css
-|4,39,1,0,1755416749,"~/.config/waybar/style.css"
--'  1  0  ~/.config/waybar/style.css
-|4,39,1,0,1755416749,"~/.config/waybar/style.css"
--'  1  0  ~/.config/waybar/style.css
-|4,39,1,0,1755416749,"~/.config/waybar/style.css"
--'  554  4  ~/.config/niri/config.kdl
-|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
--'  555  4  ~/.config/niri/config.kdl
-|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
--'  556  4  ~/.config/niri/config.kdl
-|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
--'  554  4  ~/.config/niri/config.kdl
-|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
--'  555  4  ~/.config/niri/config.kdl
-|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
--'  556  4  ~/.config/niri/config.kdl
-|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
--'  554  4  ~/.config/niri/config.kdl
-|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
--'  555  4  ~/.config/niri/config.kdl
-|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
--'  556  4  ~/.config/niri/config.kdl
-|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
--'  554  4  ~/.config/niri/config.kdl
-|4,39,554,4,1755416396,"~/.config/niri/config.kdl"
--'  555  4  ~/.config/niri/config.kdl
-|4,39,555,4,1755416396,"~/.config/niri/config.kdl"
--'  556  4  ~/.config/niri/config.kdl
-|4,39,556,4,1755416396,"~/.config/niri/config.kdl"
--'  557  4  ~/.config/niri/config.kdl
-|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
--'  558  4  ~/.config/niri/config.kdl
-|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
--'  557  4  ~/.config/niri/config.kdl
-|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
--'  558  4  ~/.config/niri/config.kdl
-|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
--'  557  4  ~/.config/niri/config.kdl
-|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
--'  558  4  ~/.config/niri/config.kdl
-|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
--'  557  4  ~/.config/niri/config.kdl
-|4,39,557,4,1755416394,"~/.config/niri/config.kdl"
--'  558  4  ~/.config/niri/config.kdl
-|4,39,558,4,1755416394,"~/.config/niri/config.kdl"
--'  562  4  ~/.config/niri/config.kdl
-|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
--'  564  4  ~/.config/niri/config.kdl
-|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
--'  562  4  ~/.config/niri/config.kdl
-|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
--'  564  4  ~/.config/niri/config.kdl
-|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
--'  562  4  ~/.config/niri/config.kdl
-|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
--'  564  4  ~/.config/niri/config.kdl
-|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
--'  562  4  ~/.config/niri/config.kdl
-|4,39,562,4,1755416393,"~/.config/niri/config.kdl"
--'  564  4  ~/.config/niri/config.kdl
-|4,39,564,4,1755416393,"~/.config/niri/config.kdl"
--'  549  4  ~/.config/niri/config.kdl
-|4,39,549,4,1755416391,"~/.config/niri/config.kdl"
--'  547  4  ~/.config/niri/config.kdl
-|4,39,547,4,1755416391,"~/.config/niri/config.kdl"
--'  544  4  ~/.config/niri/config.kdl
-|4,39,544,4,1755416391,"~/.config/niri/config.kdl"
--'  542  4  ~/.config/niri/config.kdl
-|4,39,542,4,1755416391,"~/.config/niri/config.kdl"
--'  539  4  ~/.config/niri/config.kdl
-|4,39,539,4,1755416391,"~/.config/niri/config.kdl"
--'  538  4  ~/.config/niri/config.kdl
-|4,39,538,4,1755416391,"~/.config/niri/config.kdl"
--'  533  7  ~/.config/niri/config.kdl
-|4,39,533,7,1755416391,"~/.config/niri/config.kdl"
--'  530  7  ~/.config/niri/config.kdl
-|4,39,530,7,1755416391,"~/.config/niri/config.kdl"
--'  527  4  ~/.config/niri/config.kdl
-|4,39,527,4,1755416391,"~/.config/niri/config.kdl"
--'  526  4  ~/.config/niri/config.kdl
-|4,39,526,4,1755416391,"~/.config/niri/config.kdl"
--'  525  4  ~/.config/niri/config.kdl
-|4,39,525,4,1755416391,"~/.config/niri/config.kdl"
--'  524  4  ~/.config/niri/config.kdl
-|4,39,524,4,1755416391,"~/.config/niri/config.kdl"
--'  523  4  ~/.config/niri/config.kdl
-|4,39,523,4,1755416391,"~/.config/niri/config.kdl"
--'  522  4  ~/.config/niri/config.kdl
-|4,39,522,4,1755416391,"~/.config/niri/config.kdl"
--'  521  4  ~/.config/niri/config.kdl
-|4,39,521,4,1755416391,"~/.config/niri/config.kdl"
--'  520  4  ~/.config/niri/config.kdl
-|4,39,520,4,1755416391,"~/.config/niri/config.kdl"
--'  519  4  ~/.config/niri/config.kdl
-|4,39,519,4,1755416391,"~/.config/niri/config.kdl"
--'  518  4  ~/.config/niri/config.kdl
-|4,39,518,4,1755416391,"~/.config/niri/config.kdl"
--'  517  4  ~/.config/niri/config.kdl
-|4,39,517,4,1755416391,"~/.config/niri/config.kdl"
--'  549  4  ~/.config/niri/config.kdl
-|4,39,549,4,1755416391,"~/.config/niri/config.kdl"
--'  547  4  ~/.config/niri/config.kdl
-|4,39,547,4,1755416391,"~/.config/niri/config.kdl"
--'  544  4  ~/.config/niri/config.kdl
-|4,39,544,4,1755416391,"~/.config/niri/config.kdl"
--'  542  4  ~/.config/niri/config.kdl
-|4,39,542,4,1755416391,"~/.config/niri/config.kdl"
--'  539  4  ~/.config/niri/config.kdl
-|4,39,539,4,1755416391,"~/.config/niri/config.kdl"
--'  538  4  ~/.config/niri/config.kdl
-|4,39,538,4,1755416391,"~/.config/niri/config.kdl"
--'  533  7  ~/.config/niri/config.kdl
-|4,39,533,7,1755416391,"~/.config/niri/config.kdl"
--'  530  7  ~/.config/niri/config.kdl
-|4,39,530,7,1755416391,"~/.config/niri/config.kdl"
--'  527  4  ~/.config/niri/config.kdl
-|4,39,527,4,1755416391,"~/.config/niri/config.kdl"
--'  526  4  ~/.config/niri/config.kdl
-|4,39,526,4,1755416391,"~/.config/niri/config.kdl"
--'  525  4  ~/.config/niri/config.kdl
-|4,39,525,4,1755416391,"~/.config/niri/config.kdl"
--'  524  4  ~/.config/niri/config.kdl
-|4,39,524,4,1755416391,"~/.config/niri/config.kdl"
--'  523  4  ~/.config/niri/config.kdl
-|4,39,523,4,1755416391,"~/.config/niri/config.kdl"
--'  522  4  ~/.config/niri/config.kdl
-|4,39,522,4,1755416391,"~/.config/niri/config.kdl"
--'  521  4  ~/.config/niri/config.kdl
-|4,39,521,4,1755416391,"~/.config/niri/config.kdl"
--'  520  4  ~/.config/niri/config.kdl
-|4,39,520,4,1755416391,"~/.config/niri/config.kdl"
--'  519  4  ~/.config/niri/config.kdl
-|4,39,519,4,1755416391,"~/.config/niri/config.kdl"
--'  518  4  ~/.config/niri/config.kdl
-|4,39,518,4,1755416391,"~/.config/niri/config.kdl"
--'  517  4  ~/.config/niri/config.kdl
-|4,39,517,4,1755416391,"~/.config/niri/config.kdl"
+|4,39,1,0,1755526840,"~/.config/waybar/scripts/mode.sh"
+-'  1  0  ~/.config/waybar/scripts/mode
+|4,39,1,0,1755526839,"~/.config/waybar/scripts/mode"
+-'  1  0  ~/.config/waybar/scripts/mode
+|4,39,1,0,1755526839,"~/.config/waybar/scripts/mode"
+-'  38  17  ~/.config/waybar/config
+|4,39,38,17,1755526750,"~/.config/waybar/config"
+-'  38  17  ~/.config/waybar/config
+|4,39,38,17,1755526750,"~/.config/waybar/config"
+-'  38  17  ~/.config/waybar/config
+|4,39,38,17,1755526750,"~/.config/waybar/config"
+-'  38  17  ~/.config/waybar/config
+|4,39,38,17,1755526750,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526545,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526545,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526545,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526545,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  31  14  ~/.config/waybar/config
+|4,39,31,14,1755526430,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526422,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526422,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526422,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526422,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  28  5  ~/.config/waybar/config
+|4,39,28,5,1755526351,"~/.config/waybar/config"
+-'  118  39  ~/.config/waybar/config
+|4,39,118,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  118  39  ~/.config/waybar/config
+|4,39,118,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  118  39  ~/.config/waybar/config
+|4,39,118,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  118  39  ~/.config/waybar/config
+|4,39,118,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  114  39  ~/.config/waybar/config
+|4,39,114,39,1755526200,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526167,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526167,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526167,"~/.config/waybar/config"
+-'  1  0  ~/.config/waybar/config
+|4,39,1,0,1755526167,"~/.config/waybar/config"
+-'  17  4  ~/.config/waybar/style.css
+|4,39,17,4,1755525832,"~/.config/waybar/style.css"
+-'  28  4  ~/.config/waybar/style.css
+|4,39,28,4,1755525831,"~/.config/waybar/style.css"
+-'  79  4  ~/.config/waybar/style.css
+|4,39,79,4,1755525829,"~/.config/waybar/style.css"
+-'  105  4  ~/.config/waybar/style.css
+|4,39,105,4,1755525829,"~/.config/waybar/style.css"
+-'  147  4  ~/.config/waybar/style.css
+|4,39,147,4,1755525829,"~/.config/waybar/style.css"
+-'  226  4  ~/.config/waybar/style.css
+|4,39,226,4,1755525828,"~/.config/waybar/style.css"
+-'  244  4  ~/.config/waybar/style.css
+|4,39,244,4,1755525828,"~/.config/waybar/style.css"
+-'  22  0  ~/.config/waybar/style.css
+|4,39,22,0,1755525817,"~/.config/waybar/style.css"
+-'  34  14  ~/.config/waybar/config
+|4,39,34,14,1755511783,"~/.config/waybar/config"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
+-'  72  12  ~/.config/niri/config.kdl
+|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
+-'  72  12  ~/.config/niri/config.kdl
+|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
+-'  72  12  ~/.config/niri/config.kdl
+|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
+-'  72  12  ~/.config/niri/config.kdl
+|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
+-'  72  12  ~/.config/niri/config.kdl
+|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
+-'  72  12  ~/.config/niri/config.kdl
+|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/waybar/style.css
+	*	1755526949	0
+	"	16	47
+	^	16	48
+	.	16	47
+	+	1	24
+	+	3	31
+	+	5	26
+	+	6	36
+	+	8	0
+	+	6	36
+	+	8	31
+	+	7	36
+	+	9	31
+	+	7	36
+	+	9	31
+	+	6	30
+	+	8	25
+	+	110	18
+	+	4	25
+	+	234	0
+	+	229	15
+	+	232	15
+	+	203	7
+	+	20	18
+	+	19	19
+	+	39	0
+	+	48	0
+	+	47	13
+	+	48	18
+	+	47	13
+	+	48	18
+	+	16	0
+	+	16	47
+
+> ~/.config/waybar/scripts/mode.sh
+	*	1755526912	0
+	"	4	18
+	^	4	19
+	.	4	19
+	+	7	0
+	+	3	29
+	+	4	23
+	+	6	24
+	+	4	19
+
+> ~/.config/waybar/scripts/mode
+	*	1755526837	0
+	"	1	0
+
+> ~/.config/waybar/config
+	*	1755526354	0
+	"	34	14
+	^	34	17
+	.	34	17
+	+	113	38
+	+	112	25
+	+	114	29
+	+	74	32
+	+	73	28
+	+	72	24
+	+	122	22
+	+	137	30
+	+	138	31
+	+	139	30
+	+	138	31
+	+	139	30
+	+	144	61
+	+	115	22
+	+	27	27
+	+	27	11
+	+	27	79
+	+	31	17
+	+	28	0
+	+	35	0
+	+	28	5
+	+	31	17
+	+	27	33
+	+	32	18
+	+	33	17
+	+	32	18
+	+	34	13
+	+	31	9
+	+	32	9
+	+	33	9
+	+	34	9
+	+	30	19
+	+	34	18
+	+	30	18
+	+	31	17
+	+	32	17
+	+	33	17
+	+	34	14
+	+	33	14
+	+	32	14
+	+	31	14
+	+	30	18
+	+	31	17
+	+	32	17
+	+	33	17
+	+	34	17
+
+> ~/.config/niri/config.kdl
+	*	1755511258	0
+	"	1	0
+	^	72	13
+	.	72	12
+	+	201	28
+	+	202	30
+	+	200	14
+	+	72	12
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1755504334	0
+	"	3	28
+	^	3	29
+	.	3	28
+	+	1	41
+	+	4	21
+	+	3	28
+
+> ~/.zshrc
+	*	1755504326	0
+	"	103	18
+	^	103	19
+	.	103	17
+	+	104	11
+	+	11	0
+	+	103	19
+	+	71	55
+	+	105	0
+	+	103	17
+
+> ~/yay/dotfiles/git-install
+	*	1755503981	0
+	"	1	0
 
 > ~/.config/waybar/scripts/active.sh
 	*	1755418358	0
@@ -464,14 +625,6 @@ $
 	+	4	0
 	+	3	51
 	+	4	25
-
-> ~/.config/waybar/scripts/mode.sh
-	*	1755418333	0
-	"	3	29
-	^	3	30
-	.	3	29
-	+	7	0
-	+	3	29
 
 > ~/.config/waybar/scripts/change.sh
 	*	1755418318	0
@@ -511,36 +664,6 @@ $
 	+	2	29
 	+	3	57
 	+	3	0
-
-> ~/.config/waybar/style.css
-	*	1755417330	0
-	"	43	4
-	^	4	26
-	.	4	25
-	+	1	24
-	+	3	31
-	+	5	26
-	+	6	36
-	+	8	0
-	+	6	36
-	+	8	31
-	+	7	36
-	+	9	31
-	+	7	36
-	+	9	31
-	+	6	30
-	+	8	25
-	+	109	18
-	+	4	25
-
-> ~/.config/niri/config.kdl
-	*	1755416924	0
-	"	552	4
-	^	200	15
-	.	200	14
-	+	201	28
-	+	202	30
-	+	200	14
 
 > ~/dotfiles/README.md
 	*	1755411033	0
@@ -863,15 +986,6 @@ $
 > ~/.viminfo
 	*	1755397043	0
 	"	1	0
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1755396306	0
-	"	3	28
-	^	3	29
-	.	3	28
-	+	1	41
-	+	4	21
-	+	3	28
 
 > ~/.config/mako/config
 	*	1755361540	0
