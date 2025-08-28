@@ -6,7 +6,6 @@
   "modules-left": [
   "niri/workspaces",
   "custom/uptime",
-  "cpu"
   ],
 
   "modules-center": ["clock"],
@@ -28,13 +27,13 @@
     },
     "format-icons": {
         "1": "󰣇",
-        "2": "",
-        "3": "",
-        "4": "",
-        "6": "",
-        "5": "",
-        "8": "",
-        "7": "",
+        "8": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "7": "",
+        "6": "",
         "9": ""
     }
   },
@@ -108,7 +107,7 @@
     "format": "{}",
     "format-icon": [""], 
     "tooltip": false,
-    "interval": 1600,
+    "interval": 60,
     "exec": "$HOME/.config/waybar/scripts/uptime.sh"
   },
   

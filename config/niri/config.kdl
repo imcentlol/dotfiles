@@ -6,6 +6,13 @@
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Input
+workspace "terminal"
+workspace "vim"
+workspace "browser"
+workspace "discord"
+workspace "music"
+
+
 input {
     keyboard {
         xkb {
@@ -31,8 +38,8 @@ input {
         // drag false
         // drag-lock
         natural-scroll
-        // accel-speed 0.2
-        // accel-profile "flat"
+        accel-speed 0.3
+        //accel-profile "flat"
         scroll-method "two-finger"
         // disabled-on-external-mouse
     }
@@ -97,7 +104,7 @@ output "eDP-1" {
     // so to put another output directly adjacent to it on the right, set its x to 1920.
     // If the position is unset or results in an overlap, the output is instead placed
     // automatically.
-    position x=1920 y=0
+    position x=0 y=0
 }
 
 // Settings that influence how windows are positioned and sized.
@@ -270,6 +277,7 @@ layout {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 spawn-at-startup "waybar"
 spawn-at-startup "~/.config/niri/autostart.sh"
+spawn-at-startup "vesktop --start-minimized"
 
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
 // If the client will specifically ask for CSD, the request will be honored.

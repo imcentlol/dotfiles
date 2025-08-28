@@ -11,27 +11,55 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/font
+~MSle0/j"+y
 
 # Last Substitute Search Pattern:
-~MSle0&dark
+~MSle0~&j"+y
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1755526950,,"q"
+|2,0,1756358807,,"q"
 :w
-|2,0,1755526949,,"w"
+|2,0,1756140114,,"w"
+:'<,'>"+y
+|2,0,1755943779,,"'<,'>\"+y"
+:v3j"+y
+|2,0,1755943744,,"v3j\"+y"
+:q!
+|2,0,1755862214,,"q!"
+:e ~/.zsh_history
+|2,0,1755702478,,"e ~/.zsh_history"
+:Files
+|2,0,1755707184,,"Files"
+:Lines
+|2,0,1755707178,,"Lines"
+:lines
+|2,0,1755707176,,"lines"
+:FZF
+|2,0,1755707171,,"FZF"
+:help fzf
+|2,0,1755707151,,"help fzf"
+:PlugInstall
+|2,0,1755707144,,"PlugInstall"
+:lists
+|2,0,1755707133,,"lists"
+:files
+|2,0,1755707128,,"files"
+:file
+|2,0,1755707122,,"file"
+:fzf
+|2,0,1755707111,,"fzf"
+:.q
+|2,0,1755529976,,".q"
 :e .config/waybar/style.css
 |2,0,1755511783,,"e .config/waybar/style.css"
 :e ~/.config/waybar/config
 |2,0,1755504525,,"e ~/.config/waybar/config"
 :term
 |2,0,1755503970,,"term"
-:PlugInstall
-|2,0,1755503314,,"PlugInstall"
 :e change.sh
 |2,0,1755418068,,"e change.sh"
 :e mode.sh
@@ -66,8 +94,6 @@ $
 |2,0,1755396633,,"e gruvbox.ini"
 :e
 |2,0,1755396581,,"e"
-:Lines
-|2,0,1755398405,,"Lines"
 :%s/dark
 |2,0,1755398339,,"%s/dark"
 :%s// dark
@@ -82,10 +108,6 @@ $
 |2,0,1755398204,,"grep dark"
 :grep face
 |2,0,1755398199,,"grep face"
-:Files
-|2,0,1755398108,,"Files"
-:q!
-|2,0,1755397922,,"q!"
 :'<,'>q
 |2,0,1755397921,,"'<,'>q"
 :help filetype
@@ -136,8 +158,40 @@ $
 |2,0,1755355088,,"set cursorcolumn"
 
 # Search String History (newest to oldest):
+? j"+y
+|2,1,1755943744,,"j\"+y"
+??winetricks
+|2,1,1755866126,63,"winetricks"
+??Failed
+|2,1,1755842541,63,"Failed"
+??Exec
+|2,1,1755750254,63,"Exec"
+??position
+|2,1,1755688734,63,"position"
+??autos
+|2,1,1755663079,63,"autos"
+??eDP
+|2,1,1755590253,63,"eDP"
+??uptime
+|2,1,1755535683,63,"uptime"
+??map
+|2,1,1755529381,63,"map"
+??E
+|2,1,1755529379,63,"E"
+??e
+|2,1,1755529377,63,"e"
+??open
+|2,1,1755529327,63,"open"
+??key
+|2,1,1755529318,63,"key"
+??edit
+|2,1,1755529315,63,"edit"
+??open file
+|2,1,1755529305,63,"open file"
 ??font
-|2,1,1755525817,63,"font"
+|2,1,1755530285,63,"font"
+??workspace
+|2,1,1755527273,63,"workspace"
 ??icon
 |2,1,1755525811,63,"icon"
 ??batter
@@ -174,8 +228,6 @@ $
 |2,1,1755400001,63,"fifo"
 ??method
 |2,1,1755399463,63,"method"
-??e
-|2,1,1755398387,63,"e"
 ? dark
 |2,1,1755398339,,"dark"
 ??cfdo
@@ -196,18 +248,51 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	ZSH_THEME="robbyrussell"
-	
-|3,0,0,1,2,0,1755504218,"ZSH_THEME=\"robbyrussell\"",""
+""0	CHAR	0
+	FiraCode Nerd Font
+|3,1,0,0,1,0,1755532127,"FiraCode Nerd Font"
 "1	CHAR	0
+	<?xml version="1.0"?>
+	<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+	<fontconfig>
+	  <alias>
+	    <family>serif</family>
+	    <prefer><family>FreeSerif</family></prefer>
+	  </alias>
+	  <alias>
+	    <family>sans-serif</family>
+	    <prefer><family>FreeSans</family></prefer>
+	  </alias>
+	  <alias>
+	    <family>monospace</family>
+	    <prefer><family>Source Code Pro</family></prefer>
+	  </alias>
+	</fontconfig>
+|3,0,1,0,16,0,1755532103,"<?xml version=\"1.0\"?>","<!DOCTYPE fontconfig SYSTEM \"urn:fontconfig:fonts.dtd\">","<fontconfig>","  <alias>","    <family>serif</family>","    <prefer><family>FreeSerif</family></prefer>","  </alias>","  <alias>","    <family>sans-serif</family>","    <prefer><family>FreeSans</family></prefer>","  </alias>","  <alias>","    <family>monospace</family>","    <prefer><family>Source Code Pro</family></prefer>","  </alias>",>15
+|<"</fontconfig>"
+"2	LINE	0
+	font=Roboto 10:style=Regular
+|3,0,2,1,1,0,1755529064,"font=Roboto 10:style=Regular"
+"3	LINE	0
+	  "cpu"
+|3,0,3,1,1,0,1755528364,"  \"cpu\""
+"4	LINE	0
+	font_Agave Nerd Font
+|3,0,4,1,1,0,1755528103,"font_Agave Nerd Font"
+"5	LINE	0
+	    "main"
+|3,0,5,1,1,0,1755527478,"    \"main\""
+"6	LINE	0
+	}
+|3,0,6,1,1,0,1755527477,"}"
+"7	CHAR	0
 	 ",
 	        "format-charging": " {cap
-|3,0,1,0,2,0,1755506469," \",","        \"format-charging\": \" {cap"
-"2	LINE	0
+|3,0,7,0,2,0,1755506469," \",","        \"format-charging\": \" {cap"
+"8	LINE	0
 	
-|3,0,2,1,1,0,1755504422,""
-"3	CHAR	0
+|3,0,8,1,1,0,1755504422,""
+"9	CHAR	0
 	#battery {
 	    color: #99d1db;;
 	}
@@ -217,260 +302,453 @@ $
 	#battery.warning:not(.charging) {
 	    color: #e78284;
 	}
-|3,0,3,0,9,0,1755504421,"#battery {","    color: #99d1db;;","}","#battery.charging {","    color: #a6d189;","}","#battery.warning:not(.charging) {","    color: #e78284;","}"
-"4	LINE	0
-	ZSH_THEME="robbyrussell"
-	
-|3,0,4,1,2,0,1755503405,"ZSH_THEME=\"robbyrussell\"",""
-"5	LINE	0
-	    printf '{"text": "    DND ", "class": "dnd"}'
-|3,0,5,1,1,0,1755418305,"    printf '{\"text\": \"    DND \", \"class\": \"dnd\"}'"
-"6	LINE	0
-	    printf '{"text": "󰂚  Active", "class": "active"}'
-|3,0,6,1,1,0,1755418303,"    printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1755418212,""
-"8	LINE	0
-	  	printf '{"text": "󰂚  Active", "class": "active"}'
-|3,0,8,1,1,0,1755418211,"  	printf '{\"text\": \"󰂚  Active\", \"class\": \"active\"}'"
-"9	CHAR	0
-		exec $HOME/.config/waybar/scripts/dnd.sh
-	
-|3,0,9,0,2,0,1755418202,"	exec $HOME/.config/waybar/scripts/dnd.sh",""
-""-	CHAR	0
-	, NotoSans Nerd Font
-|3,1,36,0,1,0,1755525963,", NotoSans Nerd Font"
+|3,0,9,0,9,0,1755504421,"#battery {","    color: #99d1db;;","}","#battery.charging {","    color: #a6d189;","}","#battery.warning:not(.charging) {","    color: #e78284;","}"
+"-	CHAR	0
+	FiraMono Nerd Font:size=11:weight=Medium
+|3,0,36,0,1,0,1755531399,"FiraMono Nerd Font:size=11:weight=Medium"
 
 # File marks:
-'0  16  47  ~/.config/waybar/style.css
-|4,48,16,47,1755526950,"~/.config/waybar/style.css"
-'1  4  18  ~/.config/waybar/scripts/mode.sh
-|4,49,4,18,1755526913,"~/.config/waybar/scripts/mode.sh"
-'2  1  0  ~/.config/waybar/scripts/mode
-|4,50,1,0,1755526839,"~/.config/waybar/scripts/mode"
-'3  38  17  ~/.config/waybar/config
-|4,51,38,17,1755526750,"~/.config/waybar/config"
-'4  31  14  ~/.config/waybar/config
-|4,52,31,14,1755526430,"~/.config/waybar/config"
-'5  31  14  ~/.config/waybar/config
-|4,53,31,14,1755526430,"~/.config/waybar/config"
-'6  28  5  ~/.config/waybar/config
-|4,54,28,5,1755526351,"~/.config/waybar/config"
-'7  28  5  ~/.config/waybar/config
-|4,55,28,5,1755526351,"~/.config/waybar/config"
-'8  28  5  ~/.config/waybar/config
-|4,56,28,5,1755526351,"~/.config/waybar/config"
-'9  28  5  ~/.config/waybar/config
-|4,57,28,5,1755526351,"~/.config/waybar/config"
+'0  62  0  ~/dotfiles/README.md
+|4,48,62,0,1756358807,"~/dotfiles/README.md"
+'1  15  22  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+|4,49,15,22,1756140115,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
+'2  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,50,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
+'3  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,51,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+'4  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,52,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+'5  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,53,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+'6  1  0  ~/mat khau giai nen illustrator.url
+|4,54,1,0,1755936119,"~/mat khau giai nen illustrator.url"
+'7  5  12  ~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url
+|4,55,5,12,1755935862,"~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url"
+'8  5  34  ~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url
+|4,56,5,34,1755935808,"~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url"
+'9  1  0  ~/Downloads/Adobe Photoshop CC 2019 Portable_thachlong.com/Hướng dẫn.txt
+|4,57,1,0,1755934817,"~/Downloads/Adobe Photoshop CC 2019 Portable_thachlong.com/Hướng dẫn.txt"
 
 # Jumplist (newest first):
--'  16  47  ~/.config/waybar/style.css
-|4,39,16,47,1755526950,"~/.config/waybar/style.css"
--'  4  18  ~/.config/waybar/scripts/mode.sh
-|4,39,4,18,1755526913,"~/.config/waybar/scripts/mode.sh"
--'  1  0  ~/.config/waybar/scripts/mode.sh
-|4,39,1,0,1755526840,"~/.config/waybar/scripts/mode.sh"
--'  1  0  ~/.config/waybar/scripts/mode
-|4,39,1,0,1755526839,"~/.config/waybar/scripts/mode"
--'  1  0  ~/.config/waybar/scripts/mode
-|4,39,1,0,1755526839,"~/.config/waybar/scripts/mode"
--'  38  17  ~/.config/waybar/config
-|4,39,38,17,1755526750,"~/.config/waybar/config"
--'  38  17  ~/.config/waybar/config
-|4,39,38,17,1755526750,"~/.config/waybar/config"
--'  38  17  ~/.config/waybar/config
-|4,39,38,17,1755526750,"~/.config/waybar/config"
--'  38  17  ~/.config/waybar/config
-|4,39,38,17,1755526750,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526545,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526545,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526545,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526545,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  31  14  ~/.config/waybar/config
-|4,39,31,14,1755526430,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526422,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526422,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526422,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526422,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  28  5  ~/.config/waybar/config
-|4,39,28,5,1755526351,"~/.config/waybar/config"
--'  118  39  ~/.config/waybar/config
-|4,39,118,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  118  39  ~/.config/waybar/config
-|4,39,118,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  118  39  ~/.config/waybar/config
-|4,39,118,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  118  39  ~/.config/waybar/config
-|4,39,118,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  114  39  ~/.config/waybar/config
-|4,39,114,39,1755526200,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526167,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526167,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526167,"~/.config/waybar/config"
--'  1  0  ~/.config/waybar/config
-|4,39,1,0,1755526167,"~/.config/waybar/config"
--'  17  4  ~/.config/waybar/style.css
-|4,39,17,4,1755525832,"~/.config/waybar/style.css"
--'  28  4  ~/.config/waybar/style.css
-|4,39,28,4,1755525831,"~/.config/waybar/style.css"
--'  79  4  ~/.config/waybar/style.css
-|4,39,79,4,1755525829,"~/.config/waybar/style.css"
--'  105  4  ~/.config/waybar/style.css
-|4,39,105,4,1755525829,"~/.config/waybar/style.css"
--'  147  4  ~/.config/waybar/style.css
-|4,39,147,4,1755525829,"~/.config/waybar/style.css"
--'  226  4  ~/.config/waybar/style.css
-|4,39,226,4,1755525828,"~/.config/waybar/style.css"
--'  244  4  ~/.config/waybar/style.css
-|4,39,244,4,1755525828,"~/.config/waybar/style.css"
--'  22  0  ~/.config/waybar/style.css
-|4,39,22,0,1755525817,"~/.config/waybar/style.css"
--'  34  14  ~/.config/waybar/config
-|4,39,34,14,1755511783,"~/.config/waybar/config"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1755511259,"~/.config/niri/config.kdl"
--'  72  12  ~/.config/niri/config.kdl
-|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
--'  72  12  ~/.config/niri/config.kdl
-|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
--'  72  12  ~/.config/niri/config.kdl
-|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
--'  72  12  ~/.config/niri/config.kdl
-|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
--'  72  12  ~/.config/niri/config.kdl
-|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
--'  72  12  ~/.config/niri/config.kdl
-|4,39,72,12,1755511252,"~/.config/niri/config.kdl"
+-'  62  0  ~/dotfiles/README.md
+|4,39,62,0,1756358807,"~/dotfiles/README.md"
+-'  1  0  ~/dotfiles/README.md
+|4,39,1,0,1756358782,"~/dotfiles/README.md"
+-'  15  22  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+|4,39,15,22,1756140115,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
+-'  15  22  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+|4,39,15,22,1756140115,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
+-'  1  0  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+|4,39,1,0,1756140106,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
+-'  1  0  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+|4,39,1,0,1756140106,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
+-'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
+|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
 
 # History of marks within files (newest to oldest):
 
+> ~/dotfiles/README.md
+	*	1756358794	0
+	"	62	0
+	^	57	27
+	.	57	26
+	+	61	93
+	+	4	24
+	+	57	26
+
+> ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
+	*	1756140114	0
+	"	15	22
+	^	15	23
+	.	15	22
+	+	15	22
+
+> ~/.local/share/applications/photoshop-cc-2019.desktop
+	*	1755958035	0
+	"	6	45
+	^	6	46
+	.	6	45
+	+	5	99
+	+	4	21
+	+	6	45
+
+> ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
+	*	1755943807	0
+	"	5	46
+
+> ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
+	*	1755942383	0
+	"	6	10
+
+> ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
+	*	1755942033	0
+	"	5	20
+
+> ~/mat khau giai nen illustrator.url
+	*	1755936117	0
+	"	1	0
+
+> ~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url
+	*	1755935861	0
+	"	5	12
+
+> ~/Downloads/Adobe Photoshop CC 2019 Portable_thachlong.com/Hướng dẫn.txt
+	*	1755934816	0
+	"	1	0
+
+> ~/.local/share/applications/illustrator-cs6.desktop
+	*	1755876281	0
+	"	5	4
+	^	5	5
+	.	5	5
+	+	6	55
+	+	5	5
+
+> ~/.zsh_history
+	*	1755866835	0
+	"	690	19
+
+> ~/.local/share/applications/photoshop-cs6.desktop
+	*	1755866814	0
+	"	8	0
+	^	5	15
+	.	5	14
+	+	6	19
+	+	5	14
+
+> ~/wine3d.log
+	*	1755842584	0
+	"	3935	43
+
+> /usr/share/applications/steam.desktop
+	*	1755750265	0
+	"	282	4
+	^	282	5
+
+> ~/.vim/plugged/fzf/doc/fzf.txt
+	*	1755707168	0
+	"	139	0
+
+> ~/Downloads/photoshop-cs6.desktop
+	*	1755706733	0
+	"	5	85
+	^	5	86
+	.	5	85
+	+	5	0
+	+	4	0
+	+	5	87
+	+	5	0
+	+	6	46
+	+	4	15
+	+	5	39
+	+	6	56
+	+	5	85
+
+> ~/dotfiles/winetest
+	*	1755702529	0
+	"	1	76
+	^	1	77
+	.	1	76
+	+	1	76
+
+> ~/dotfiles/exported-packages
+	*	1755696957	0
+	"	88	17
+
+> ~/.config/niri/config.kdl
+	*	1755689030	0
+	"	107	15
+	^	107	16
+	.	107	15
+	+	208	28
+	+	209	30
+	+	207	14
+	+	79	12
+	+	9	11
+	+	15	10
+	+	15	0
+	+	9	20
+	+	11	36
+	+	14	0
+	+	9	0
+	+	10	0
+	+	12	0
+	+	13	15
+	+	41	8
+	+	40	9
+	+	38	21
+	+	40	8
+	+	41	9
+	+	42	9
+	+	41	22
+	+	40	8
+	+	92	11
+	+	93	0
+	+	280	43
+	+	107	15
+
+> ~/.config/waybar/config
+	*	1755535694	0
+	"	110	17
+	^	110	18
+	.	110	17
+	+	112	38
+	+	111	25
+	+	113	29
+	+	73	32
+	+	72	28
+	+	71	24
+	+	121	22
+	+	136	30
+	+	137	31
+	+	138	30
+	+	137	31
+	+	138	30
+	+	143	61
+	+	114	22
+	+	26	27
+	+	26	11
+	+	26	79
+	+	30	17
+	+	27	0
+	+	34	0
+	+	27	5
+	+	30	17
+	+	26	33
+	+	31	18
+	+	32	17
+	+	31	18
+	+	33	13
+	+	30	9
+	+	31	9
+	+	32	9
+	+	33	9
+	+	29	19
+	+	33	18
+	+	29	18
+	+	30	17
+	+	31	17
+	+	32	17
+	+	33	14
+	+	32	14
+	+	31	14
+	+	30	14
+	+	29	18
+	+	30	17
+	+	31	17
+	+	32	17
+	+	33	17
+	+	29	9
+	+	35	9
+	+	30	9
+	+	31	9
+	+	32	9
+	+	34	9
+	+	33	9
+	+	35	9
+	+	33	9
+	+	34	9
+	+	36	9
+	+	35	9
+	+	36	9
+	+	9	0
+	+	29	9
+	+	30	14
+	+	110	17
+
+> ~/yay/dotfiles/exported-packages
+	*	1755533200	0
+	"	66	0
+
 > ~/.config/waybar/style.css
-	*	1755526949	0
-	"	16	47
+	*	1755533171	0
+	"	1	0
 	^	16	48
 	.	16	47
 	+	1	24
@@ -503,6 +781,82 @@ $
 	+	16	0
 	+	16	47
 
+> ~/.config/mako/config
+	*	1755533088	0
+	"	1	0
+	^	7	26
+	.	7	26
+	+	3	23
+	+	4	19
+	+	3	23
+	+	8	0
+	+	7	26
+
+> ~/.config/fuzzel/fuzzel.ini
+	*	1755533072	0
+	"	1	0
+	^	3	24
+	.	3	0
+	+	1	41
+	+	4	21
+	+	3	0
+
+> ~/.config/fontconfig/fonts.conf
+	*	1755532144	0
+	"	7	38
+	^	8	39
+	.	8	38
+	+	41	12
+	+	26	12
+	+	1	12
+	+	12	0
+	+	11	12
+	+	7	37
+	+	8	38
+
+> /usr/share/fontconfig/conf.avail/10-hinting-medium.conf
+	*	1755531759	0
+	"	1	0
+
+> /usr/share/fontconfig/conf.avail/10-hinting-
+	*	1755531753	0
+	"	1	0
+
+> ~/10-nerd-font-symbols.conf
+	*	1755531645	0
+	"	13	27
+
+> /etc/fonts/conf.d/50-user.conf
+	*	1755530882	0
+	"	1	0
+
+> ~/.config/lf/lfrc
+	*	1755530840	0
+	"	44	0
+	^	128	25
+	.	129	0
+	+	129	0
+	m	75	0
+	n	75	0
+
+> ~/.bash_logout
+	*	1755529350	0
+	"	3	0
+
+> ~/.config/kitty/kitty.conf
+	*	1755528254	0
+	"	1	0
+	^	3	238
+	.	3	237
+	+	8	21
+	+	7	10
+	+	1	19
+	+	3	237
+
+> ~/yay/dotfiles/install-packages.sh
+	*	1755527193	0
+	"	22	0
+
 > ~/.config/waybar/scripts/mode.sh
 	*	1755526912	0
 	"	4	18
@@ -517,77 +871,6 @@ $
 > ~/.config/waybar/scripts/mode
 	*	1755526837	0
 	"	1	0
-
-> ~/.config/waybar/config
-	*	1755526354	0
-	"	34	14
-	^	34	17
-	.	34	17
-	+	113	38
-	+	112	25
-	+	114	29
-	+	74	32
-	+	73	28
-	+	72	24
-	+	122	22
-	+	137	30
-	+	138	31
-	+	139	30
-	+	138	31
-	+	139	30
-	+	144	61
-	+	115	22
-	+	27	27
-	+	27	11
-	+	27	79
-	+	31	17
-	+	28	0
-	+	35	0
-	+	28	5
-	+	31	17
-	+	27	33
-	+	32	18
-	+	33	17
-	+	32	18
-	+	34	13
-	+	31	9
-	+	32	9
-	+	33	9
-	+	34	9
-	+	30	19
-	+	34	18
-	+	30	18
-	+	31	17
-	+	32	17
-	+	33	17
-	+	34	14
-	+	33	14
-	+	32	14
-	+	31	14
-	+	30	18
-	+	31	17
-	+	32	17
-	+	33	17
-	+	34	17
-
-> ~/.config/niri/config.kdl
-	*	1755511258	0
-	"	1	0
-	^	72	13
-	.	72	12
-	+	201	28
-	+	202	30
-	+	200	14
-	+	72	12
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1755504334	0
-	"	3	28
-	^	3	29
-	.	3	28
-	+	1	41
-	+	4	21
-	+	3	28
 
 > ~/.zshrc
 	*	1755504326	0
@@ -664,19 +947,6 @@ $
 	+	2	29
 	+	3	57
 	+	3	0
-
-> ~/dotfiles/README.md
-	*	1755411033	0
-	"	57	26
-	^	57	27
-	.	57	26
-	+	61	93
-	+	4	24
-	+	57	26
-
-> ~/dotfiles/exported-packages
-	*	1755410166	0
-	"	60	0
 
 > ~/dotfiles/install-packages.sh
 	*	1755410029	0
@@ -986,23 +1256,6 @@ $
 > ~/.viminfo
 	*	1755397043	0
 	"	1	0
-
-> ~/.config/mako/config
-	*	1755361540	0
-	"	3	22
-	^	3	23
-	.	3	23
-	+	3	23
-	+	4	19
-	+	3	23
-
-> ~/.config/kitty/kitty.conf
-	*	1755357936	0
-	"	5	10
-	^	5	11
-	.	5	10
-	+	6	21
-	+	5	10
 
 > /usr/share/vim/vim91/doc/term.txt
 	*	1755355872	0
