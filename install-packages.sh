@@ -1,7 +1,16 @@
 #!/bin/bash
 # must run as root
-yay -S --needed --noconfirm -< ./exported-packages
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+while true; do
+    read -p "Do you want to install all my default packages?(y/n): " bool_pkg
+    if [[ $bool_pkg == "y" ]] then
+        yay -S --needed --noconfirm -< ./exported-packages
+        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        break
+    elif [[ $bool_pkg == "n" ]] then
+        echo "Installing needed packages"
+        break
+    fi
+done
 cd ~
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
@@ -20,6 +29,7 @@ sudo mv target/release/niri /usr/bin/
 cd ~
 mkdir -p Pictures/Screenshots
 sudo npm install --global purer-prompt
+sudo npm install --global livedown
 echo "autoload promptinit; promptinit" >> .zshrc
 echo "prompt purer" >> .zshrc
 chsh -s /usr/bin/zsh
