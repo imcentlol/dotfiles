@@ -32,4 +32,6 @@ let &t_SR = "\e[3 q"
 let &t_EI = "\e[1 q"
 let &t_VS = "\e[?12l"
 
+let g:gruvbox_contrast_dark="soft"
 colorscheme gruvbox
+

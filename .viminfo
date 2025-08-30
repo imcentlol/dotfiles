@@ -11,25 +11,49 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/j"+y
+~MSle0~/workspace
 
 # Last Substitute Search Pattern:
-~MSle0~&j"+y
+~MSle0&j"+y
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1756358807,,"q"
+|2,0,1756541910,,"q"
 :w
-|2,0,1756140114,,"w"
+|2,0,1756529125,,"w"
+:e eww.yuck
+|2,0,1756451230,,"e eww.yuck"
+:q!
+|2,0,1756465186,,"q!"
+:terminal
+|2,0,1756384561,,"terminal"
+:term
+|2,0,1756384522,,"term"
+:colorscheme gruvbox
+|2,0,1756387340,,"colorscheme gruvbox"
+:'<,'>yank
+|2,0,1756380651,,"'<,'>yank"
+:ư
+|2,0,1756379233,,"ư"
+:e .bashrc
+|2,0,1756376685,,"e .bashrc"
+:e install-packages.sh
+|2,0,1756360798,,"e install-packages.sh"
+:e test.sh
+|2,0,1756360777,,"e test.sh"
+:e install-config.sh
+|2,0,1756360457,,"e install-config.sh"
+:W
+|2,0,1756360391,,"W"
+:t
+|2,0,1756359646,,"t"
 :'<,'>"+y
 |2,0,1755943779,,"'<,'>\"+y"
 :v3j"+y
 |2,0,1755943744,,"v3j\"+y"
-:q!
-|2,0,1755862214,,"q!"
 :e ~/.zsh_history
 |2,0,1755702478,,"e ~/.zsh_history"
 :Files
@@ -58,8 +82,6 @@ $
 |2,0,1755511783,,"e .config/waybar/style.css"
 :e ~/.config/waybar/config
 |2,0,1755504525,,"e ~/.config/waybar/config"
-:term
-|2,0,1755503970,,"term"
 :e change.sh
 |2,0,1755418068,,"e change.sh"
 :e mode.sh
@@ -114,16 +136,12 @@ $
 |2,0,1755397632,,"help filetype"
 :runtime
 |2,0,1755397593,,"runtime"
-:W
-|2,0,1755362275,,"W"
 :colorscheme industry
 |2,0,1755357370,,"colorscheme industry"
 :colorscheme catppuccin_frappe
 |2,0,1755357602,,"colorscheme catppuccin_frappe"
 :colorscheme tec
 |2,0,1755357331,,"colorscheme tec"
-:colorscheme gruvbox
-|2,0,1755357076,,"colorscheme gruvbox"
 :colorscheme catppuccin_mocha
 |2,0,1755357068,,"colorscheme catppuccin_mocha"
 :set bg=dark
@@ -158,6 +176,22 @@ $
 |2,0,1755355088,,"set cursorcolumn"
 
 # Search String History (newest to oldest):
+??workspace
+|2,1,1756448331,63,"workspace"
+??break
+|2,1,1756390180,63,"break"
+??2322
+|2,1,1756380137,63,"2322"
+??padd
+|2,1,1756379951,63,"padd"
+??tooltip
+|2,1,1756379852,63,"tooltip"
+??tool
+|2,1,1756379764,63,"tool"
+??VN
+|2,1,1756377600,63,"VN"
+??US
+|2,1,1756377591,63,"US"
 ? j"+y
 |2,1,1755943744,,"j\"+y"
 ??winetricks
@@ -190,8 +224,6 @@ $
 |2,1,1755529305,63,"open file"
 ??font
 |2,1,1755530285,63,"font"
-??workspace
-|2,1,1755527273,63,"workspace"
 ??icon
 |2,1,1755525811,63,"icon"
 ??batter
@@ -248,290 +280,665 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	FiraCode Nerd Font
-|3,1,0,0,1,0,1755532127,"FiraCode Nerd Font"
-"1	CHAR	0
-	<?xml version="1.0"?>
-	<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
-	<fontconfig>
-	  <alias>
-	    <family>serif</family>
-	    <prefer><family>FreeSerif</family></prefer>
-	  </alias>
-	  <alias>
-	    <family>sans-serif</family>
-	    <prefer><family>FreeSans</family></prefer>
-	  </alias>
-	  <alias>
-	    <family>monospace</family>
-	    <prefer><family>Source Code Pro</family></prefer>
-	  </alias>
-	</fontconfig>
-|3,0,1,0,16,0,1755532103,"<?xml version=\"1.0\"?>","<!DOCTYPE fontconfig SYSTEM \"urn:fontconfig:fonts.dtd\">","<fontconfig>","  <alias>","    <family>serif</family>","    <prefer><family>FreeSerif</family></prefer>","  </alias>","  <alias>","    <family>sans-serif</family>","    <prefer><family>FreeSans</family></prefer>","  </alias>","  <alias>","    <family>monospace</family>","    <prefer><family>Source Code Pro</family></prefer>","  </alias>",>15
-|<"</fontconfig>"
+"0	CHAR	0
+	transition: all 0.2 ease-in-out;
+|3,0,0,0,1,0,1756448356,"transition: all 0.2 ease-in-out;"
+""1	LINE	0
+	    ClockWidget {}
+|3,1,1,1,1,0,1756529121,"    ClockWidget {}"
 "2	LINE	0
-	font=Roboto 10:style=Regular
-|3,0,2,1,1,0,1755529064,"font=Roboto 10:style=Regular"
+	    onTriggered: dateProc.running = true
+	  }
+|3,0,2,1,2,0,1756529048,"    onTriggered: dateProc.running = true","  }"
 "3	LINE	0
-	  "cpu"
-|3,0,3,1,1,0,1755528364,"  \"cpu\""
+	    repeat: true
+|3,0,3,1,1,0,1756529048,"    repeat: true"
 "4	LINE	0
-	font_Agave Nerd Font
-|3,0,4,1,1,0,1755528103,"font_Agave Nerd Font"
+	    running: true
+|3,0,4,1,1,0,1756529048,"    running: true"
 "5	LINE	0
-	    "main"
-|3,0,5,1,1,0,1755527478,"    \"main\""
+	    interval: 1000
+|3,0,5,1,1,0,1756529048,"    interval: 1000"
 "6	LINE	0
-	}
-|3,0,6,1,1,0,1755527477,"}"
-"7	CHAR	0
-	 ",
-	        "format-charging": " {cap
-|3,0,7,0,2,0,1755506469," \",","        \"format-charging\": \" {cap"
-"8	LINE	0
+	  Timer {
+|3,0,6,1,1,0,1756529048,"  Timer {"
+"7	LINE	0
 	
-|3,0,8,1,1,0,1755504422,""
-"9	CHAR	0
-	#battery {
-	    color: #99d1db;;
-	}
-	#battery.charging {
-	    color: #a6d189;
-	}
-	#battery.warning:not(.charging) {
-	    color: #e78284;
-	}
-|3,0,9,0,9,0,1755504421,"#battery {","    color: #99d1db;;","}","#battery.charging {","    color: #a6d189;","}","#battery.warning:not(.charging) {","    color: #e78284;","}"
+|3,0,7,1,1,0,1756529047,""
+"8	LINE	0
+	  }
+|3,0,8,1,1,0,1756529047,"  }"
+"9	LINE	0
+	    }
+|3,0,9,1,1,0,1756529047,"    }"
 "-	CHAR	0
-	FiraMono Nerd Font:size=11:weight=Medium
-|3,0,36,0,1,0,1755531399,"FiraMono Nerd Font:size=11:weight=Medium"
+	wmctrl -s 8
+|3,0,36,0,1,0,1756451799,"wmctrl -s 8"
 
 # File marks:
-'0  62  0  ~/dotfiles/README.md
-|4,48,62,0,1756358807,"~/dotfiles/README.md"
-'1  15  22  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
-|4,49,15,22,1756140115,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
-'2  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,50,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
-'3  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,51,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
-'4  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,52,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
-'5  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,53,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
-'6  1  0  ~/mat khau giai nen illustrator.url
-|4,54,1,0,1755936119,"~/mat khau giai nen illustrator.url"
-'7  5  12  ~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url
-|4,55,5,12,1755935862,"~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url"
-'8  5  34  ~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url
-|4,56,5,34,1755935808,"~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url"
-'9  1  0  ~/Downloads/Adobe Photoshop CC 2019 Portable_thachlong.com/Hướng dẫn.txt
-|4,57,1,0,1755934817,"~/Downloads/Adobe Photoshop CC 2019 Portable_thachlong.com/Hướng dẫn.txt"
+'0  4  0  ~/dotfiles/export-config.sh
+|4,48,4,0,1756541910,"~/dotfiles/export-config.sh"
+'1  1  0  ~/.config/niri/config.kdl
+|4,49,1,0,1756541309,"~/.config/niri/config.kdl"
+'2  1  0  ~/.config/niri/config.kdl
+|4,50,1,0,1756541309,"~/.config/niri/config.kdl"
+'3  5  0  ~/.config/quickshell/shell.qml
+|4,51,5,0,1756529128,"~/.config/quickshell/shell.qml"
+'4  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,52,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+'5  14  8  ~/.config/quickshell/Time.qml
+|4,53,14,8,1756529062,"~/.config/quickshell/Time.qml"
+'6  6  0  ~/.config/quickshell/shell.qml
+|4,54,6,0,1756529037,"~/.config/quickshell/shell.qml"
+'7  1  0  ~/.config/quickshell/Time.qml
+|4,55,1,0,1756528945,"~/.config/quickshell/Time.qml"
+'8  26  0  ~/.config/quickshell/Time.qml
+|4,56,26,0,1756528945,"~/.config/quickshell/Time.qml"
+'9  1  0  ~/.config/quickshell/Time.qml
+|4,57,1,0,1756528933,"~/.config/quickshell/Time.qml"
 
 # Jumplist (newest first):
--'  62  0  ~/dotfiles/README.md
-|4,39,62,0,1756358807,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1756358782,"~/dotfiles/README.md"
--'  15  22  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
-|4,39,15,22,1756140115,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
--'  15  22  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
-|4,39,15,22,1756140115,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
--'  1  0  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
-|4,39,1,0,1756140106,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
--'  1  0  ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
-|4,39,1,0,1756140106,"~/.var/app/org.vinegarhq.Sober/config/sober/config.json"
--'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  6  45  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,6,45,1755958036,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  1  0  ~/.local/share/applications/photoshop-cc-2019.desktop
-|4,39,1,0,1755957871,"~/.local/share/applications/photoshop-cc-2019.desktop"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  5  46  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,5,46,1755943810,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  1  0  ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-|4,39,1,0,1755943706,"~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  6  10  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,6,10,1755942386,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-|4,39,1,0,1755942379,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  5  20  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,5,20,1755942041,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
--'  1  0  ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-|4,39,1,0,1755941886,"~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL"
+-'  4  0  ~/dotfiles/export-config.sh
+|4,39,4,0,1756541910,"~/dotfiles/export-config.sh"
+-'  1  0  ~/dotfiles/export-config.sh
+|4,39,1,0,1756541907,"~/dotfiles/export-config.sh"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
+-'  1  0  ~/.config/niri/config.kdl
+|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
+-'  5  0  ~/.config/quickshell/shell.qml
+|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
+-'  5  0  ~/.config/quickshell/shell.qml
+|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
+-'  5  0  ~/.config/quickshell/shell.qml
+|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
+-'  5  0  ~/.config/quickshell/shell.qml
+|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
+-'  5  0  ~/.config/quickshell/shell.qml
+|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
+-'  5  0  ~/.config/quickshell/shell.qml
+|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
+-'  1  0  ~/.config/quickshell/shell.qml
+|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
+-'  1  0  ~/.config/quickshell/shell.qml
+|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
+-'  1  0  ~/.config/quickshell/shell.qml
+|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
+-'  1  0  ~/.config/quickshell/shell.qml
+|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
+-'  1  0  ~/.config/quickshell/shell.qml
+|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
+-'  1  0  ~/.config/quickshell/shell.qml
+|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  9  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  1  0  ~/.config/quickshell/ClockWidget.qml
+|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  14  8  ~/.config/quickshell/Time.qml
+|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  1  0  ~/.config/quickshell/Time.qml
+|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  6  0  ~/.config/quickshell/shell.qml
+|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/export-config.sh
+	*	1756541909	0
+	"	4	0
+	^	7	18
+	.	7	17
+	+	4	15
+	+	5	8
+	+	4	15
+	+	5	11
+	+	6	3
+	+	5	4
+	+	6	14
+	+	7	15
+	+	6	14
+	+	7	17
+
+> ~/.config/quickshell/shell.qml
+	*	1756529125	0
+	"	5	0
+	.	5	0
+	+	1	112
+	+	1	17
+	+	1	0
+	+	1	17
+	+	6	0
+	+	2	0
+	+	5	0
+
+> ~/.config/quickshell/ClockWidget.qml
+	*	1756529090	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	9	0
+
+> ~/.config/quickshell/Time.qml
+	*	1756529059	0
+	"	14	8
+	^	14	9
+	.	28	0
+	+	1	11
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	16
+	+	28	0
+
+> ~/.config/quickshell/Bar.qml
+	*	1756528872	0
+	"	48	0
+	^	48	1
+	.	48	0
+	+	48	0
+
+> ~/.config/niri/autostart.sh
+	*	1756528577	0
+	"	5	0
+	^	5	12
+	.	5	11
+	+	3	17
+	+	4	49
+	+	5	11
+
+> ~/.local/share/applications/photoshop-cc-2019.desktop
+	*	1756478332	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	5	99
+	+	4	21
+	+	6	45
+	+	5	14
+
+> ~/.config/waybar/style.css
+	*	1756471069	0
+	"	17	1
+	^	67	24
+	.	67	23
+	+	1	24
+	+	3	31
+	+	5	26
+	+	6	36
+	+	9	0
+	+	6	36
+	+	9	31
+	+	7	36
+	+	10	31
+	+	7	36
+	+	10	31
+	+	6	30
+	+	9	25
+	+	114	18
+	+	4	25
+	+	242	0
+	+	237	15
+	+	240	15
+	+	211	7
+	+	22	18
+	+	21	19
+	+	41	0
+	+	50	0
+	+	49	13
+	+	50	18
+	+	49	13
+	+	50	18
+	+	18	0
+	+	18	47
+	+	247	17
+	+	248	12
+	+	247	18
+	+	248	12
+	+	247	25
+	+	94	0
+	+	19	16
+	+	7	38
+	+	8	36
+	+	177	37
+	+	185	37
+	+	8	36
+	+	177	37
+	+	185	37
+	+	164	0
+	+	169	0
+	+	160	0
+	+	10	33
+	+	12	0
+	+	11	0
+	+	12	30
+	+	11	31
+	+	165	32
+	+	160	32
+	+	142	37
+	+	11	31
+	+	142	37
+	+	160	32
+	+	67	23
+	+	75	3
+	+	83	23
+	+	75	23
+	+	67	23
+
+> ~/.config/eww/eww.scss
+	*	1756471062	0
+	"	19	28
+	^	43	0
+	.	42	1
+	+	42	1
+
+> ~/.config/eww/eww.yuck
+	*	1756471060	0
+	"	26	32
+	^	75	8
+	.	73	0
+	+	1	20
+	+	76	0
+	+	75	7
+	+	71	32
+	+	26	54
+	+	27	54
+	+	28	54
+	+	29	52
+	+	30	52
+	+	31	52
+	+	32	52
+	+	29	54
+	+	30	54
+	+	31	54
+	+	32	54
+	+	33	54
+	+	34	54
+	+	25	17
+	+	22	21
+	+	24	8
+	+	2	27
+	+	38	21
+	+	45	21
+	+	72	34
+	+	71	30
+	+	40	8
+	+	71	31
+	+	73	0
+	+	71	0
+	+	73	0
+
+> ~/Downloads/Mage Arena/MageArena_Data/app.info
+	*	1756465200	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/.config/mako/config
+	*	1756401273	0
+	"	24	14
+	^	24	15
+	.	24	14
+	+	3	23
+	+	4	19
+	+	3	23
+	+	8	0
+	+	7	26
+	+	24	14
+
+> ~/.vimrc
+	*	1756401229	0
+	"	13	0
+	^	30	20
+	.	30	20
+	+	3	9
+	+	3	25
+	+	4	13
+	+	6	11
+	+	6	0
+	+	3	9
+	+	4	13
+	+	7	11
+	+	3	9
+	+	6	11
+	+	4	12
+	+	6	11
+	+	8	14
+	+	1	11
+	+	8	10
+	+	4	0
+	+	1	15
+	+	3	0
+	+	2	11
+	+	9	13
+	+	5	15
+	+	9	12
+	+	10	7
+	+	5	16
+	+	6	12
+	+	8	0
+	+	10	0
+	+	21	14
+	+	15	0
+	+	16	44
+	+	38	0
+	+	21	15
+	+	17	0
+	+	14	18
+	+	14	19
+	+	14	26
+	+	14	0
+	+	10	0
+	+	21	15
+	+	10	0
+	+	25	11
+	+	17	21
+	+	21	33
+	+	21	52
+	+	25	3
+	+	25	0
+	+	21	34
+	+	22	0
+	+	36	18
+	+	5	16
+	+	7	0
+	+	6	0
+	+	10	0
+	+	24	19
+	+	25	0
+	+	10	0
+	+	24	12
+	+	23	6
+	+	36	18
+	+	23	2
+	+	17	22
+	+	34	0
+	+	20	0
+	+	18	0
+	+	33	20
+	+	25	12
+	+	19	22
+	+	18	0
+	+	23	10
+	+	36	19
+	+	36	0
+	+	35	32
+	+	30	20
+
+> ~/.bashrc
+	*	1756387684	0
+	"	16	0
+	^	12	0
+	.	12	0
+	+	12	0
+
+> ~/.config/waybar/scripts/notification_restore.sh
+	*	1756380741	0
+	"	5	9
+	^	3	27
+	.	3	26
+	+	3	21
+	+	2	40
+	+	3	26
+
+> /etc/locale.gen
+	*	1756377609	0
+	"	488	0
+	^	488	0
+	.	488	0
+	+	488	0
+
+> ~/.zshrc
+	*	1756377496	0
+	"	6	0
+	.	6	0
+	+	105	11
+	+	12	0
+	+	104	19
+	+	72	55
+	+	106	0
+	+	104	17
+	+	6	25
+	+	7	0
+	+	6	0
+
+> ~/IELTS/word
+	*	1756376601	0
+	"	1	27
+	^	1	28
+	.	1	27
+	+	1	27
+
+> ~/dotfiles/install-packages.sh
+	*	1756361724	0
+	"	8	11
+	^	8	13
+	.	8	12
+	+	30	28
+	+	35	19
+	+	32	33
+	+	4	60
+	+	5	19
+	+	6	0
+	+	15	0
+	+	6	4
+	+	7	3
+	+	10	37
+	+	12	0
+	+	3	13
+	+	4	3
+	+	5	3
+	+	6	7
+	+	7	7
+	+	9	3
+	+	10	7
+	+	12	3
+	+	11	20
+	+	7	122
+	+	11	20
+	+	13	3
+	+	7	115
+	+	11	12
+	+	10	39
+	+	9	0
+	+	5	46
+	+	5	18
+	+	9	20
+	+	6	0
+	+	8	12
+
+> ~/dotfiles/test.sh
+	*	1756361649	0
+	"	6	12
+	^	6	13
+	.	6	12
+	+	3	31
+	+	9	0
+	+	5	24
+	+	5	23
+	+	5	9
+	+	4	28
+	+	5	7
+	+	9	0
+	+	7	1
+	+	4	23
+	+	2	13
+	+	3	3
+	+	4	3
+	+	5	7
+	+	7	6
+	+	8	3
+	+	6	12
+
+> ~/dotfiles/install-config.sh
+	*	1756360788	0
+	"	8	1
+	^	6	2
+	.	6	1
+	+	8	11
+	+	10	3
+	+	9	5
+	+	10	5
+	+	3	56
+	+	5	20
+	+	6	1
 
 > ~/dotfiles/README.md
 	*	1756358794	0
@@ -548,15 +955,6 @@ $
 	^	15	23
 	.	15	22
 	+	15	22
-
-> ~/.local/share/applications/photoshop-cc-2019.desktop
-	*	1755958035	0
-	"	6	45
-	^	6	46
-	.	6	45
-	+	5	99
-	+	4	21
-	+	6	45
 
 > ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
 	*	1755943807	0
@@ -746,52 +1144,6 @@ $
 	*	1755533200	0
 	"	66	0
 
-> ~/.config/waybar/style.css
-	*	1755533171	0
-	"	1	0
-	^	16	48
-	.	16	47
-	+	1	24
-	+	3	31
-	+	5	26
-	+	6	36
-	+	8	0
-	+	6	36
-	+	8	31
-	+	7	36
-	+	9	31
-	+	7	36
-	+	9	31
-	+	6	30
-	+	8	25
-	+	110	18
-	+	4	25
-	+	234	0
-	+	229	15
-	+	232	15
-	+	203	7
-	+	20	18
-	+	19	19
-	+	39	0
-	+	48	0
-	+	47	13
-	+	48	18
-	+	47	13
-	+	48	18
-	+	16	0
-	+	16	47
-
-> ~/.config/mako/config
-	*	1755533088	0
-	"	1	0
-	^	7	26
-	.	7	26
-	+	3	23
-	+	4	19
-	+	3	23
-	+	8	0
-	+	7	26
-
 > ~/.config/fuzzel/fuzzel.ini
 	*	1755533072	0
 	"	1	0
@@ -872,18 +1224,6 @@ $
 	*	1755526837	0
 	"	1	0
 
-> ~/.zshrc
-	*	1755504326	0
-	"	103	18
-	^	103	19
-	.	103	17
-	+	104	11
-	+	11	0
-	+	103	19
-	+	71	55
-	+	105	0
-	+	103	17
-
 > ~/yay/dotfiles/git-install
 	*	1755503981	0
 	"	1	0
@@ -947,40 +1287,6 @@ $
 	+	2	29
 	+	3	57
 	+	3	0
-
-> ~/dotfiles/install-packages.sh
-	*	1755410029	0
-	"	25	19
-	^	25	20
-	.	25	19
-	+	21	28
-	+	25	19
-
-> ~/dotfiles/install-config.sh
-	*	1755406264	0
-	"	6	5
-	^	6	6
-	.	6	5
-	+	4	11
-	+	6	3
-	+	5	5
-	+	6	5
-
-> ~/dotfiles/export-config.sh
-	*	1755406145	0
-	"	7	17
-	^	7	18
-	.	7	17
-	+	4	15
-	+	5	8
-	+	4	15
-	+	5	11
-	+	6	3
-	+	5	4
-	+	6	14
-	+	7	15
-	+	6	14
-	+	7	17
 
 > ~/.config/vis/config
 	*	1755405808	0
@@ -1150,81 +1456,6 @@ $
 	.	13	0
 	+	2	0
 	+	13	0
-
-> ~/.vimrc
-	*	1755398413	0
-	"	10	1
-	^	23	11
-	.	23	10
-	+	3	9
-	+	3	25
-	+	4	13
-	+	6	11
-	+	6	0
-	+	3	9
-	+	4	13
-	+	7	11
-	+	3	9
-	+	6	11
-	+	4	12
-	+	6	11
-	+	8	14
-	+	1	11
-	+	8	10
-	+	4	0
-	+	1	15
-	+	3	0
-	+	2	11
-	+	9	13
-	+	5	15
-	+	9	12
-	+	10	7
-	+	5	16
-	+	6	12
-	+	8	0
-	+	10	0
-	+	21	14
-	+	15	0
-	+	16	44
-	+	36	0
-	+	21	15
-	+	17	0
-	+	14	18
-	+	14	19
-	+	14	26
-	+	14	0
-	+	10	0
-	+	21	15
-	+	10	0
-	+	25	11
-	+	17	21
-	+	21	33
-	+	21	52
-	+	25	3
-	+	25	0
-	+	21	34
-	+	22	0
-	+	35	18
-	+	5	16
-	+	7	0
-	+	6	0
-	+	10	0
-	+	24	19
-	+	25	0
-	+	10	0
-	+	24	12
-	+	23	6
-	+	35	18
-	+	23	2
-	+	17	22
-	+	34	0
-	+	20	0
-	+	18	0
-	+	33	20
-	+	25	12
-	+	19	22
-	+	18	0
-	+	23	10
 
 > /usr/share/vim/vim91/doc/filetype.txt
 	*	1755397718	0

@@ -1,6 +1,6 @@
 #!/bin/bash
-num=$(makoctl history | wc -l)
-for count in $(seq $((num/3))); do
+num=$(makoctl history | grep Notification | wc -l)
+for count in $(seq $((num))); do
 	makoctl restore -n $count;
 	sleep 0.2
 done

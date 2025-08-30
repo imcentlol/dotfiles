@@ -5,16 +5,18 @@
 @define-color hover #d5c4a1;
 @define-color background-alt1 #a7d4c3;
 @define-color background-alt2 #fabd2f;
+@define-color background-alt3 #d0d42a;
 @define-color hover-alt1 #80baa4;
 @define-color hover-alt2 #d9a01c;
-@define-color active #a5d49f;
+@define-color hover-alt3 #bbbf13;
+@define-color active #a5d49f; 
 @define-color dnd #FF8A8A;
 @define-color active-hover #8fbd8f;
 @define-color dnd-hover #d47272;
 
 *{
     font-family: 'Segoe UI', 'Symbols Nerd Font';
-    font-size: 20px;
+    font-size: 16px;
     min-height: 0;
     padding-right: 0px;
     padding-left: 0px;
@@ -62,7 +64,7 @@
     border-radius: 5px; 
     padding: 0.5rem 0.9rem;
     background-color: @background;
-    transition: all ease-in-out;
+    transition: all 0.2s ease-in-out;
     border: none;
     outline: none;
 }
@@ -70,6 +72,7 @@
 #workspaces button.active {
     color: @background;
     background-color: @text;
+    transition: all 0.2s ease-in-out;
 }
 
 #workspaces button:hover {
@@ -77,6 +80,7 @@
     color: @background;
     box-shadow: inherit;
     font-weight: 500;
+    transition: all 0.2s ease-in-out;
 }
 
 #clock {
@@ -152,9 +156,13 @@
     margin-right: 5px; 
 }
 
-#custom-pomodoro:hover,
-#custom-pomodoro.break:hover{
+#custom-pomodoro:hover{
     background-color: @hover-alt1; 
+    outline-offset: -1px;
+}
+
+#custom-pomodoro.break:hover{
+    background-color: @hover-alt3; 
     outline-offset: -1px;
 }
 
@@ -166,7 +174,7 @@
 
 #custom-pomodoro.break {
     color: @text; 
-    background-color: @background-alt1; 
+    background-color: @background-alt3; 
     box-shadow: inset 0 0 0 1px rgba(153, 209, 219, 0.2); 
     outline: none;
 }
@@ -236,8 +244,8 @@
 tooltip {
     background-color: #1a1b26;
     color: #dddddd;
-    padding: 5px 12px;
-    margin: 5px 0px;
+    padding: 0.3rem 0.7rem;
+    margin: 0px 0px;
     border-radius: 6px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

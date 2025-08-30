@@ -19,6 +19,7 @@ ghc
 git
 github-cli
 htop
+ibus-unikey
 inxi
 kitty
 lf
@@ -52,6 +53,7 @@ pulseaudio
 python-pip
 qt5-wayland
 qt6-wayland
+quickshell
 rust
 sox
 spotify
