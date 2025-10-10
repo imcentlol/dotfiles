@@ -11,33 +11,207 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/workspace
+~MSle0~/smoot
 
 # Last Substitute Search Pattern:
-~MSle0&j"+y
+~MSle0&bulkrename
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1759851566,,"q!"
+:smooth
+|2,0,1759851562,,"smooth"
 :q
-|2,0,1756541910,,"q"
+|2,0,1759851558,,"q"
 :w
-|2,0,1756529125,,"w"
+|2,0,1759851553,,"w"
+:W
+|2,0,1759851016,,"W"
+:1000
+|2,0,1759421994,,"1000"
+:10000
+|2,0,1759420487,,"10000"
+:later
+|2,0,1759154307,,"later"
+:ư
+|2,0,1759030946,,"ư"
+:w nig
+|2,0,1759035310,,"w nig"
+:'<,'>+y
+|2,0,1758992169,,"'<,'>+y"
+:qw
+|2,0,1758961364,,"qw"
+:ư\
+|2,0,1758727248,,"ư\\"
+:%s/bulkrename
+|2,0,1758377106,,"%s/bulkrename"
+:find
+|2,0,1758377099,,"find"
+:Lines
+|2,0,1758377055,,"Lines"
+:FZF
+|2,0,1758377047,,"FZF"
+:fzf
+|2,0,1758377045,,"fzf"
+:find del
+|2,0,1758377030,,"find del"
+:del
+|2,0,1758377026,,"del"
+:terminal
+|2,0,1758117302,,"terminal"
+:Texplore
+|2,0,1757168012,,"Texplore"
+:'<,'>w
+|2,0,1757000197,,"'<,'>w"
+:set path?
+|2,0,1756995161,,"set path?"
+:'<,'>_d
+|2,0,1756965319,,"'<,'>_d"
+:e APLUSBCB.cpp
+|2,0,1756965169,,"e APLUSBCB.cpp"
+:t
+|2,0,1756965164,,"t"
+:1
+|2,0,1756914425,,"1"
+:2w
+|2,0,1756910942,,"2w"
+:'<,'>"+y
+|2,0,1756908003,,"'<,'>\"+y"
+:'<,'>"+yy
+|2,0,1756907945,,"'<,'>\"+yy"
+:'<,'>:
+|2,0,1756907928,,"'<,'>:"
+:'<,'>+yy
+|2,0,1756907744,,"'<,'>+yy"
+:term
+|2,0,1756905161,,"term"
+:vimgrep /focus_toplevel/ **/*.h
+|2,0,1756867394,,"vimgrep /focus_toplevel/ **/*.h"
+:file
+|2,0,1756867260,,"file"
+:files
+|2,0,1756867241,,"files"
+:vimgrep /wlr_seat_set_keyboard/ **/*.h
+|2,0,1756867232,,"vimgrep /wlr_seat_set_keyboard/ **/*.h"
+:tree
+|2,0,1756867023,,"tree"
+:vimgrep /wlr_seat_set/ **/*.h
+|2,0,1756866630,,"vimgrep /wlr_seat_set/ **/*.h"
+:vimgrep /wlr_seat_set/ **/*.c
+|2,0,1756866618,,"vimgrep /wlr_seat_set/ **/*.c"
+:vimgrep /wlr_seat_set/.c
+|2,0,1756866601,,"vimgrep /wlr_seat_set/.c"
+:vimgrep wlr_seat_set/.c
+|2,0,1756866576,,"vimgrep wlr_seat_set/.c"
+:vim9cmd
+|2,0,1756866568,,"vim9cmd"
+:vimgrep wlr_seat_set
+|2,0,1756866565,,"vimgrep wlr_seat_set"
+:e server.c
+|2,0,1756867765,,"e server.c"
+:e keyboard.c
+|2,0,1756867495,,"e keyboard.c"
+:e ~/Project/Soul/include/inputmanager.h
+|2,0,1756867167,,"e ~/Project/Soul/include/inputmanager.h"
+:mksession! project.vim
+|2,0,1756867097,,"mksession! project.vim"
+:e /home/imcentlol/Project/Soul/include/keyboard.h
+|2,0,1756866999,,"e /home/imcentlol/Project/Soul/include/keyboard.h"
+:e /home/imcentlol/Project/Soul/include/inputmanager.h
+|2,0,1756866771,,"e /home/imcentlol/Project/Soul/include/inputmanager.h"
+:e /home/imcentlol/Project/Soul/include/seat.h
+|2,0,1756866265,,"e /home/imcentlol/Project/Soul/include/seat.h"
+:e /home/imcentlol/Project/Soul/include/server.h
+|2,0,1756865981,,"e /home/imcentlol/Project/Soul/include/server.h"
+:e seat.c
+|2,0,1756864256,,"e seat.c"
+:delcomm
+|2,0,1756864203,,"delcomm"
+:Lines wl_
+|2,0,1756863502,,"Lines wl_"
+:mksession project.vim!
+|2,0,1756863470,,"mksession project.vim!"
+:mksession project.vim
+|2,0,1756863459,,"mksession project.vim"
+:saveas inputmanager.h
+|2,0,1756862539,,"saveas inputmanager.h"
+:saveas inputmanager.c
+|2,0,1756862526,,"saveas inputmanager.c"
+:r input.c inputmanager.c
+|2,0,1756862507,,"r input.c inputmanager.c"
+:source project.vim
+|2,0,1756861943,,"source project.vim"
+:trewind
+|2,0,1756864896,,"trewind"
+:source src/project.vim
+|2,0,1756861924,,"source src/project.vim"
+:qw!
+|2,0,1756834652,,"qw!"
+:e input.c
+|2,0,1756828334,,"e input.c"
+:e ~/Project/Soul/include/input.h
+|2,0,1756827753,,"e ~/Project/Soul/include/input.h"
+:e main.c
+|2,0,1756826767,,"e main.c"
+:%s/FLOWWM/SOUL/g
+|2,0,1756826500,,"%s/FLOWWM/SOUL/g"
+:%s/flowwm/soul
+|2,0,1756826481,,"%s/flowwm/soul"
+:e /home/imcentlol/Project/Soul/src/main.c
+|2,0,1756826470,,"e /home/imcentlol/Project/Soul/src/main.c"
+:e /home/imcentlol/Project/Soul/include/cursor.h
+|2,0,1756826395,,"e /home/imcentlol/Project/Soul/include/cursor.h"
+:e /home/imcentlol/Project/Soul/include/
+|2,0,1756826240,,"e /home/imcentlol/Project/Soul/include/"
+:Files
+|2,0,1756826119,,"Files"
+:%s/flowwm/soul/g
+|2,0,1756825810,,"%s/flowwm/soul/g"
+:2000
+|2,0,1756791114,,"2000"
+:100
+|2,0,1756791109,,"100"
+:Fzf
+|2,0,1756790198,,"Fzf"
+:%s/TINYWL/FLOWWM
+|2,0,1756789853,,"%s/TINYWL/FLOWWM"
+:%s/tinywl/flowwm
+|2,0,1756789824,,"%s/tinywl/flowwm"
+:e /home/imcentlol/Project/
+|2,0,1756783346,,"e /home/imcentlol/Project/"
+:e meson.build
+|2,0,1756783335,,"e meson.build"
+:help complete
+|2,0,1756782140,,"help complete"
+:help autocomplete
+|2,0,1756782049,,"help autocomplete"
+:help auto-complete
+|2,0,1756782045,,"help auto-complete"
+:help PATH
+|2,0,1756779150,,"help PATH"
+:e flow-server.c
+|2,0,1756569516,,"e flow-server.c"
+:e
+|2,0,1756569426,,"e"
+:e flowwm.c
+|2,0,1756566314,,"e flowwm.c"
+:!
+|2,0,1756567897,,"!"
+:.,.+1!
+|2,0,1756567896,,".,.+1!"
+:tou
+|2,0,1756567891,,"tou"
+:a flowwm-server.c
+|2,0,1756567888,,"a flowwm-server.c"
 :e eww.yuck
 |2,0,1756451230,,"e eww.yuck"
-:q!
-|2,0,1756465186,,"q!"
-:terminal
-|2,0,1756384561,,"terminal"
-:term
-|2,0,1756384522,,"term"
 :colorscheme gruvbox
 |2,0,1756387340,,"colorscheme gruvbox"
 :'<,'>yank
 |2,0,1756380651,,"'<,'>yank"
-:ư
-|2,0,1756379233,,"ư"
 :e .bashrc
 |2,0,1756376685,,"e .bashrc"
 :e install-packages.sh
@@ -46,36 +220,18 @@ $
 |2,0,1756360777,,"e test.sh"
 :e install-config.sh
 |2,0,1756360457,,"e install-config.sh"
-:W
-|2,0,1756360391,,"W"
-:t
-|2,0,1756359646,,"t"
-:'<,'>"+y
-|2,0,1755943779,,"'<,'>\"+y"
 :v3j"+y
 |2,0,1755943744,,"v3j\"+y"
 :e ~/.zsh_history
 |2,0,1755702478,,"e ~/.zsh_history"
-:Files
-|2,0,1755707184,,"Files"
-:Lines
-|2,0,1755707178,,"Lines"
 :lines
 |2,0,1755707176,,"lines"
-:FZF
-|2,0,1755707171,,"FZF"
 :help fzf
 |2,0,1755707151,,"help fzf"
 :PlugInstall
 |2,0,1755707144,,"PlugInstall"
 :lists
 |2,0,1755707133,,"lists"
-:files
-|2,0,1755707128,,"files"
-:file
-|2,0,1755707122,,"file"
-:fzf
-|2,0,1755707111,,"fzf"
 :.q
 |2,0,1755529976,,".q"
 :e .config/waybar/style.css
@@ -114,8 +270,6 @@ $
 |2,0,1755397197,,"help :syntax"
 :e gruvbox.ini
 |2,0,1755396633,,"e gruvbox.ini"
-:e
-|2,0,1755396581,,"e"
 :%s/dark
 |2,0,1755398339,,"%s/dark"
 :%s// dark
@@ -176,6 +330,180 @@ $
 |2,0,1755355088,,"set cursorcolumn"
 
 # Search String History (newest to oldest):
+??smoot
+|2,1,1759851564,63,"smoot"
+??smooth
+|2,1,1759851010,63,"smooth"
+??smoooth
+|2,1,1759851008,63,"smoooth"
+??winine
+|2,1,1759629039,63,"winine"
+??winenine
+|2,1,1759629035,63,"winenine"
+??Direct
+|2,1,1759629024,63,"Direct"
+??wine-nine
+|2,1,1759629011,63,"wine-nine"
+??3D
+|2,1,1759628976,63,"3D"
+??nine
+|2,1,1759628974,63,"nine"
+??gal
+|2,1,1759628963,63,"gal"
+??wine
+|2,1,1759628950,63,"wine"
+??cast
+|2,1,1758959492,63,"cast"
+??blur
+|2,1,1758959462,63,"blur"
+??delete
+|2,1,1758377159,63,"delete"
+??bulkrename
+|2,1,1758377122,63,"bulkrename"
+? bulkrename
+|2,1,1758377106,,"bulkrename"
+??copy
+|2,1,1757215407,63,"copy"
+??line
+|2,1,1757215078,63,"line"
+??lines
+|2,1,1757215076,63,"lines"
+??go to
+|2,1,1757215074,63,"go to"
+??goto
+|2,1,1757215057,63,"goto"
+??unzip
+|2,1,1757214947,63,"unzip"
+??cfg
+|2,1,1757170727,63,"cfg"
+??default
+|2,1,1757170725,63,"default"
+??config
+|2,1,1757170718,63,"config"
+??q
+|2,1,1757170700,63,"q"
+??multi
+|2,1,1757124864,63,"multi"
+??1.pnpqrrsuttwyz
+|2,1,1757089761,63,"1.pnpqrrsuttwyz"
+??wlr_seat_set_keyboard
+|2,1,1756866696,63,"wlr_seat_set_keyboard"
+??wlr_seat_set_selection
+|2,1,1756866395,63,"wlr_seat_set_selection"
+??wlr
+|2,1,1756866372,63,"wlr"
+??focus_toplevel
+|2,1,1756867549,63,"focus_toplevel"
+??focus_change
+|2,1,1756867544,63,"focus_change"
+??wlr_seat_selection
+|2,1,1756866165,63,"wlr_seat_selection"
+??seat_set_selection
+|2,1,1756866143,63,"seat_set_selection"
+??cursor
+|2,1,1756865944,63,"cursor"
+??server_cursor_motion_absolute
+|2,1,1756865595,63,"server_cursor_motion_absolute"
+??wlr_seat
+|2,1,1756864841,63,"wlr_seat"
+??wlr_seat_client
+|2,1,1756864409,63,"wlr_seat_client"
+??seat
+|2,1,1756864351,63,"seat"
+??call
+|2,1,1756863300,63,"call"
+??server
+|2,1,1756865480,63,"server"
+??struct soul_server
+|2,1,1756834579,63,"struct soul_server"
+??keyboard_handle
+|2,1,1756834240,63,"keyboard_handle"
+??soul_keyboard
+|2,1,1756834029,63,"soul_keyboard"
+??wl_list_remove
+|2,1,1756830585,63,"wl_list_remove"
+??server_new_keyboard
+|2,1,1756829347,63,"server_new_keyboard"
+??wlr_input_device
+|2,1,1756828189,63,"wlr_input_device"
+??wlr_keyboard
+|2,1,1756827910,63,"wlr_keyboard"
+??input
+|2,1,1756827861,63,"input"
+?? soul_cursor_mode
+|2,1,1756826637,63," soul_cursor_mode"
+??enum
+|2,1,1756826571,63,"enum"
+? FLOWWM
+|2,1,1756826500,,"FLOWWM"
+? flowwm
+|2,1,1756826481,,"flowwm"
+??soul_cursor
+|2,1,1756826005,63,"soul_cursor"
+??soul_cursor_mode
+|2,1,1756825994,63,"soul_cursor_mode"
+??C
+|2,1,1756825906,63,"C"
+??flow
+|2,1,1756825842,63,"flow"
+??FLOW
+|2,1,1756825839,63,"FLOW"
+??Flow
+|2,1,1756825837,63,"Flow"
+??main
+|2,1,1756791148,63,"main"
+??bool
+|2,1,1756790477,63,"bool"
+??view
+|2,1,1756790429,63,"view"
+??flowwm_server
+|2,1,1756790304,63,"flowwm_server"
+??Tiny
+|2,1,1756789863,63,"Tiny"
+??tiny
+|2,1,1756789861,63,"tiny"
+??TINY
+|2,1,1756789859,63,"TINY"
+? TINYWL
+|2,1,1756789853,,"TINYWL"
+? tinywl
+|2,1,1756789824,,"tinywl"
+??tinywl_server
+|2,1,1756789593,63,"tinywl_server"
+??cc
+|2,1,1756782089,63,"cc"
+??header
+|2,1,1756782079,63,"header"
+??include
+|2,1,1756782069,63,"include"
+??cpp
+|2,1,1756782064,63,"cpp"
+??set path+=/usr/local/include
+|2,1,1756779226,63,"set path+=/usr/local/include"
+??window
+|2,1,1756778528,63,"window"
+??render
+|2,1,1756776705,63,"render"
+??wlroots
+|2,1,1756743476,63,"wlroots"
+??leave
+|2,1,1756566616,63,"leave"
+??wl_surface
+|2,1,1756566602,63,"wl_surface"
+??client-header
+|2,1,1756566251,63,"client-header"
+??proto
+|2,1,1756566233,63,"proto"
+??radius
+|2,1,1756541451,63,"radius"
+??width
+|2,1,1756541373,63,"width"
+??widtg
+|2,1,1756541313,63,"widtg"
+??border
+|2,1,1756540715,63,"border"
+??round
+|2,1,1756540076,63,"round"
 ??workspace
 |2,1,1756448331,63,"workspace"
 ??break
@@ -270,8 +598,6 @@ $
 |2,1,1755360528,63,"margin-right"
 ??right-margin
 |2,1,1755360524,63,"right-margin"
-??border
-|2,1,1755358742,63,"border"
 
 # Expression History (newest to oldest):
 
@@ -280,266 +606,1579 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	transition: all 0.2 ease-in-out;
-|3,0,0,0,1,0,1756448356,"transition: all 0.2 ease-in-out;"
-""1	LINE	0
-	    ClockWidget {}
-|3,1,1,1,1,0,1756529121,"    ClockWidget {}"
-"2	LINE	0
-	    onTriggered: dateProc.running = true
-	  }
-|3,0,2,1,2,0,1756529048,"    onTriggered: dateProc.running = true","  }"
-"3	LINE	0
-	    repeat: true
-|3,0,3,1,1,0,1756529048,"    repeat: true"
-"4	LINE	0
-	    running: true
-|3,0,4,1,1,0,1756529048,"    running: true"
-"5	LINE	0
-	    interval: 1000
-|3,0,5,1,1,0,1756529048,"    interval: 1000"
-"6	LINE	0
-	  Timer {
-|3,0,6,1,1,0,1756529048,"  Timer {"
-"7	LINE	0
+""0	CHAR	0
+	1949
+<The majority of people living in Viet Nam have learned about the Resistance war against French and American from a very young age. And most of us know that its a glorious victory that we always proud of. But the progress from being ruled by colonist to independence is rough journey and also requires a lot of efforts from many leaders. And one the most admired general that leads Vietnam to independence is General Vo Nguyen Giap. He was born in August 25th, 1911. Living in a family with strong patriotic tradition, he was inspired by his father named Vo Quang Nghiem - a great Confucian scholar. After getting kicked out of Quốc Học – Huế High School for the Gifted for organizing a rebellion, he decided to be a History teacher at Thang Long primary school from 1931 to 1939. During this time, he also worked as a journalist and a revolutionist and inspired a lot of people to join the resistance war by writing news for Tiếng Dân and Le Travail. Then, in 1940, he joined the Communist Party of Indochina and established Vietnam Propaganda Liberation Army in 1944 with only 34 people. And in 1945, he led an armed forces to take over the current government during the Agust Revolution. Two years later, he got promoted as the first general and Commander-in-Chief of the Vietnam's People Army. In this position, he had helped the army won many battles, including the Battle of Dien Bien Phu by planning perfect strategy and making wise decisions. Even after the war ended, he helped contributing to military strategies and played a senior leadership role in directing the Ho Chi Minh Campaign, leading to the liberation of South Vietnam and national unification. Since the late 1980s onward, he gradually stepped back from leadership roles, but continued contributing insights on defense, history, and science. Sadly, in 2013, he passed away at the age of 103, but his dedication to the country will live forever in citizens' heart.
+|3,1,0,0,1,0,1759212173,>1948
+|<"The majority of people living in Viet Nam have learned about the Resistance war against French and American from a very young age. And most of us know that its a glorious victory that we always proud of. But the progress from being ruled by colonist to independence is rough journey and also requires a lot of efforts from many leaders. And one the most admired general that leads Vietnam to independence is General Vo Nguyen Giap. He was born in August 25th, 1911. Living in a family with 
+|<strong patriotic tradition, he was inspired by his father named Vo Quang Nghiem - a great Confucian scholar. After getting kicked out of Quốc Học – Huế High School for the Gifted for organizing a rebellion, he decided to be a History teacher at Thang Long primary school from 1931 to 1939. During this time, he also worked as a journalist and a revolutionist and inspired a lot of people to join the resistance war by writing news for Tiếng Dân and Le Travail. Then, in 1940, he 
+|<joined the Communist Party of Indochina and established Vietnam Propaganda Liberation Army in 1944 with only 34 people. And in 1945, he led an armed forces to take over the current government during the Agust Revolution. Two years later, he got promoted as the first general and Commander-in-Chief of the Vietnam's People Army. In this position, he had helped the army won many battles, including the Battle of Dien Bien Phu by planning perfect strategy and making wise decisions. Even afte
+|<r the war ended, he helped contributing to military strategies and played a senior leadership role in directing the Ho Chi Minh Campaign, leading to the liberation of South Vietnam and national unification. Since the late 1980s onward, he gradually stepped back from leadership roles, but continued contributing insights on defense, history, and science. Sadly, in 2013, he passed away at the age of 103, but his dedication to the country will live forever in citizens' heart."
+"1	LINE	0
 	
-|3,0,7,1,1,0,1756529047,""
+|3,0,1,1,1,0,1758961441,""
+"2	CHAR	0
+	width=300
+	height=150
+|3,0,2,0,2,0,1758961440,"width=300","height=150"
+"3	CHAR	0
+	👉 Example: In my spare time, I enjoy simple leisure activities like reading or walking.
+	
+	quality time /ˈkwɑːləti taɪm/ – khoảng thời gian ý nghĩa
+	Example: I try to spend quality time with my family at the weekend.
+	
+	recreational activities /ˌrekriˈeɪʃənl ækˈtɪvətiz/ – hoạt động giải trí
+	Example: Recreational activities such as swimming help me stay energetic.
+	
+	to kill time /kɪl taɪm/ – giết thời gian
+	Example: I usually play mobile games to kill time when I’m waiting for the bus.
+	
+	to take up a hobby /teɪk ʌp ə ˈhɑːbi/ – bắt đầu một sở thích
+	Example: Recently, I’ve taken up a hobby of cooking new dishes.
+	
+	to wind down /waɪnd daʊn/ – thư giãn, xả stress
+	Example: I often listen to music in the evening to wind down after work.
+	
+	to be pressed for time /prest fɔː taɪm/ – thiếu thời gian
+	Example: I don’t usually have much spare time because I’m often pressed for time.
+	
+	to recharge my batteries /riːˈtʃɑːrdʒ maɪ ˈbætəriz/ – nạp lại năng lượng
+	Example: Spending time outdoors helps me recharge my batteries.
+|3,0,3,0,22,0,1758642670,"👉 Example: In my spare time, I enjoy simple leisure activities like reading or walking.","","quality time /ˈkwɑːləti taɪm/ – khoảng thời gian ý nghĩa","Example: I try to spend quality time with my family at the weekend.","","recreational activities /ˌrekriˈeɪʃənl ækˈtɪvətiz/ – hoạt động giải trí","Example: Recreational activities such as swimming help me stay energetic.","",>50
+|<"to kill time /kɪl taɪm/ – giết thời gian","Example: I usually play mobile games to kill time when I’m waiting for the bus.","","to take up a hobby /teɪk ʌp ə ˈhɑːbi/ – bắt đầu một sở thích","Example: Recently, I’ve taken up a hobby of cooking new dishes.","","to wind down /waɪnd daʊn/ – thư giãn, xả stress","Example: I often listen to music in the evening to wind down after work.","",>68
+|<"to be pressed for time /prest fɔː taɪm/ – thiếu thời gian","Example: I don’t usually have much spare time because I’m often pressed for time.","","to recharge my batteries /riːˈtʃɑːrdʒ maɪ ˈbætəriz/ – nạp lại năng lượng","Example: Spending time outdoors helps me recharge my batteries."
+"4	LINE	0
+	export VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d
+|3,0,4,1,1,0,1757004387,"export VK_LAYER_PATH=$VULKAN_SDK/etc/vulkan/explicit_layer.d"
+"5	LINE	0
+	export LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH
+|3,0,5,1,1,0,1757004384,"export LD_LIBRARY_PATH=$VULKAN_SDK/lib:$LD_LIBRARY_PATH"
+"6	LINE	0
+	export PATH=$VULKAN_SDK/bin:$PATH
+|3,0,6,1,1,0,1757004381,"export PATH=$VULKAN_SDK/bin:$PATH"
+"7	LINE	0
+	export VULKAN_SDK=~/applications/1.2.189.0/x86_64
+|3,0,7,1,1,0,1757004377,"export VULKAN_SDK=~/applications/1.2.189.0/x86_64"
 "8	LINE	0
-	  }
-|3,0,8,1,1,0,1756529047,"  }"
+	    temp = "";
+|3,0,8,1,1,0,1757000051,"    temp = \"\";"
 "9	LINE	0
-	    }
-|3,0,9,1,1,0,1756529047,"    }"
+	            cout << eq;
+|3,0,9,1,1,0,1756999969,"            cout << eq;"
 "-	CHAR	0
-	wmctrl -s 8
-|3,0,36,0,1,0,1756451799,"wmctrl -s 8"
+	In 2000s, idely honored as a legendary general and called the “Eldest Brother of the Vietnam People’s Army.”
+|3,0,36,0,1,0,1759153531,"In 2000s, idely honored as a legendary general and called the “Eldest Brother of the Vietnam People’s Army.”"
 
 # File marks:
-'0  4  0  ~/dotfiles/export-config.sh
-|4,48,4,0,1756541910,"~/dotfiles/export-config.sh"
-'1  1  0  ~/.config/niri/config.kdl
-|4,49,1,0,1756541309,"~/.config/niri/config.kdl"
-'2  1  0  ~/.config/niri/config.kdl
-|4,50,1,0,1756541309,"~/.config/niri/config.kdl"
-'3  5  0  ~/.config/quickshell/shell.qml
-|4,51,5,0,1756529128,"~/.config/quickshell/shell.qml"
-'4  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,52,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
-'5  14  8  ~/.config/quickshell/Time.qml
-|4,53,14,8,1756529062,"~/.config/quickshell/Time.qml"
-'6  6  0  ~/.config/quickshell/shell.qml
-|4,54,6,0,1756529037,"~/.config/quickshell/shell.qml"
-'7  1  0  ~/.config/quickshell/Time.qml
-|4,55,1,0,1756528945,"~/.config/quickshell/Time.qml"
-'8  26  0  ~/.config/quickshell/Time.qml
-|4,56,26,0,1756528945,"~/.config/quickshell/Time.qml"
-'9  1  0  ~/.config/quickshell/Time.qml
-|4,57,1,0,1756528933,"~/.config/quickshell/Time.qml"
+'0  443  2  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,48,443,2,1759851566,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+'1  443  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,49,443,10,1759851558,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+'2  4  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,50,4,0,1759851434,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+'3  443  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,51,443,10,1759851424,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+'4  443  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,52,443,10,1759851424,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+'5  443  2  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,53,443,2,1759851415,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+'6  443  2  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,54,443,2,1759851415,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+'7  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,55,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+'8  534  109  ~/steam-379720.log
+|4,56,534,109,1759630018,"~/steam-379720.log"
+'9  65  32  ~/IELTS/word
+|4,57,65,32,1759422403,"~/IELTS/word"
 
 # Jumplist (newest first):
--'  4  0  ~/dotfiles/export-config.sh
-|4,39,4,0,1756541910,"~/dotfiles/export-config.sh"
--'  1  0  ~/dotfiles/export-config.sh
-|4,39,1,0,1756541907,"~/dotfiles/export-config.sh"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
--'  1  0  ~/.config/niri/config.kdl
-|4,39,1,0,1756541309,"~/.config/niri/config.kdl"
--'  5  0  ~/.config/quickshell/shell.qml
-|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
--'  5  0  ~/.config/quickshell/shell.qml
-|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
--'  5  0  ~/.config/quickshell/shell.qml
-|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
--'  5  0  ~/.config/quickshell/shell.qml
-|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
--'  5  0  ~/.config/quickshell/shell.qml
-|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
--'  5  0  ~/.config/quickshell/shell.qml
-|4,39,5,0,1756529128,"~/.config/quickshell/shell.qml"
--'  1  0  ~/.config/quickshell/shell.qml
-|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
--'  1  0  ~/.config/quickshell/shell.qml
-|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
--'  1  0  ~/.config/quickshell/shell.qml
-|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
--'  1  0  ~/.config/quickshell/shell.qml
-|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
--'  1  0  ~/.config/quickshell/shell.qml
-|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
--'  1  0  ~/.config/quickshell/shell.qml
-|4,39,1,0,1756529094,"~/.config/quickshell/shell.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  9  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,9,0,1756529091,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  1  0  ~/.config/quickshell/ClockWidget.qml
-|4,39,1,0,1756529072,"~/.config/quickshell/ClockWidget.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  14  8  ~/.config/quickshell/Time.qml
-|4,39,14,8,1756529062,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  1  0  ~/.config/quickshell/Time.qml
-|4,39,1,0,1756529045,"~/.config/quickshell/Time.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
--'  6  0  ~/.config/quickshell/shell.qml
-|4,39,6,0,1756529037,"~/.config/quickshell/shell.qml"
+-'  443  2  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,443,2,1759851566,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,1,0,1759851564,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  443  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,443,10,1759851558,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  4  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,0,1759851434,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,0,1759851434,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851431,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851431,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  443  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,443,10,1759851424,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  443  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,443,10,1759851424,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,1,0,1759851420,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,1,0,1759851420,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  443  2  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,443,2,1759851415,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  443  2  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,443,2,1759851415,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  323  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,323,10,1759851411,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  323  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,323,10,1759851411,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  323  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,323,10,1759851411,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  323  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,323,10,1759851411,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  323  10  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,323,10,1759851411,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,1,0,1759851405,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,1,0,1759851405,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  4  13  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,4,13,1759851182,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+|4,39,1,0,1759851176,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local"
+-'  256  16  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,256,16,1759851010,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  256  16  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,256,16,1759851010,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  1  0  ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+|4,39,1,0,1759850983,"~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  534  109  ~/steam-379720.log
+|4,39,534,109,1759630018,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
+-'  26016  55  ~/steam-379720.log
+|4,39,26016,55,1759629039,"~/steam-379720.log"
 
 # History of marks within files (newest to oldest):
+
+> ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.cfg
+	*	1759851564	0
+	"	443	2
+	^	443	11
+	.	443	10
+	+	443	10
+
+> ~/.local/share/Steam/steamapps/compatdata/379720/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM/base/DOOMConfig.local
+	*	1759851433	0
+	"	4	0
+	^	4	14
+	.	4	13
+	+	4	13
+
+> ~/steam-379720.log
+	*	1759629608	0
+	"	534	109
+
+> ~/IELTS/word
+	*	1759422007	0
+	"	65	32
+	^	65	33
+	.	65	32
+	+	1	28
+	+	2	69
+	+	3	49
+	+	4	47
+	+	3	42
+	+	5	48
+	+	7	44
+	+	8	30
+	+	9	76
+	+	11	0
+	+	58	0
+	+	32	62
+	+	1	34
+	+	2	26
+	+	34	43
+	+	36	39
+	+	34	49
+	+	41	28
+	+	57	35
+	+	51	17
+	+	49	31
+	+	44	0
+	+	43	10
+	+	61	29
+	+	63	43
+	+	65	32
+
+> ~/IELTS/outline
+	*	1759330295	0
+	"	3	289
+	^	3	290
+	.	3	289
+	+	3	255
+	+	3	289
+
+> /usr/share/vim/vim91/doc/help.txt
+	*	1759330113	0
+	"	3	0
+
+> ~/word
+	*	1759324454	0
+	"	1	0
+
+> ~/SPEAKING
+	*	1759212175	0
+	"	1	0
+	^	1	88
+	.	1	0
+	+	1	335
+	+	1	0
+	+	1	664
+	+	1	569
+	+	1	1822
+	+	1	1709
+	+	1	1937
+	+	1	1942
+	+	1	0
+	+	1	1945
+	+	1	0
+
+> /usr/share/applications/com.github.wwmm.easyeffects.desktop
+	*	1759161781	0
+	"	113	16
+
+> ~/nig
+	*	1759055250	0
+	"	4	0
+	^	4	0
+	.	3	161
+	+	3	161
+
+> ~/.config/kitty/kitty.conf
+	*	1758962233	0
+	"	2	0
+	^	28	0
+	.	28	0
+	+	8	21
+	+	7	10
+	+	28	0
+
+> ~/.config/mako/config
+	*	1758961592	0
+	"	10	13
+	^	10	14
+	.	10	13
+	+	3	23
+	+	4	19
+	+	3	23
+	+	8	0
+	+	7	26
+	+	22	14
+	+	11	15
+	+	16	8
+	+	16	6
+	+	16	8
+	+	16	9
+	+	9	8
+	+	1	8
+	+	2	9
+	+	16	0
+	+	10	13
+
+> /usr/share/pipewire/pipewire.conf
+	*	1758960324	0
+	"	1	0
+
+> ~/.config/niri/config.kdl
+	*	1758959509	0
+	"	340	29
+	^	120	6
+	.	120	5
+	+	208	28
+	+	209	30
+	+	207	14
+	+	79	12
+	+	9	11
+	+	15	10
+	+	15	0
+	+	9	20
+	+	11	36
+	+	14	0
+	+	9	0
+	+	10	0
+	+	12	0
+	+	13	15
+	+	41	8
+	+	40	9
+	+	38	21
+	+	40	8
+	+	41	9
+	+	42	9
+	+	41	22
+	+	40	8
+	+	92	11
+	+	93	0
+	+	280	43
+	+	107	15
+	+	346	27
+	+	347	25
+	+	346	27
+	+	347	24
+	+	346	27
+	+	211	0
+	+	207	14
+	+	346	27
+	+	207	14
+	+	346	27
+	+	117	13
+	+	118	13
+	+	116	7
+	+	117	13
+	+	118	13
+	+	117	13
+	+	115	5
+	+	116	5
+	+	117	5
+	+	118	5
+	+	119	5
+	+	120	5
+
+> ~/.config/lf/lfrc
+	*	1758377169	0
+	"	46	7
+	^	11	23
+	.	72	0
+	+	11	22
+	+	72	0
+
+> ~/.asoundrc
+	*	1758124676	0
+	"	1	0
+	^	2	22
+	.	2	21
+	+	2	21
+
+> /usr/share/applications/input-remapper-gtk.desktop
+	*	1758118043	0
+	"	1	0
+
+> ~/Project/Soul/main.c
+	*	1758117319	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/dotfiles/exported-packages
+	*	1757849222	0
+	"	11	6
+
+> ~/.local/share/applications/photoshop-cc-2019.desktop
+	*	1757174959	0
+	"	5	111
+	^	5	112
+	.	5	111
+	+	5	99
+	+	4	21
+	+	6	45
+	+	5	111
+
+> ~/Downloads/Readme.txt
+	*	1757174910	0
+	"	40	0
+
+> ~/Downloads/game/dhewm3/base/WHAT_TO_DO.txt
+	*	1757170851	0
+	"	25	0
+
+> ~/Downloads/game/dhewm3/Configuration.txt
+	*	1757170727	0
+	"	107	55
+
+> ~/Downloads/game/dhewm3/README.txt
+	*	1757170704	0
+	"	325	29
+
+> ~/Downloads/Read_Me_Instructions.txt
+	*	1757170356	0
+	"	1	0
+
+> ~/Downloads/HD.txt
+	*	1757170340	0
+	"	1	0
+
+> ~/Readme.txt
+	*	1757168755	0
+	"	1	0
+
+> /etc/pacman.conf
+	*	1757124976	0
+	"	91	0
+
+> ~/Downloads/pictoria.psd
+	*	1757094332	0
+	"	69105	0
+
+> ~/.zshrc
+	*	1757004896	0
+	"	9	0
+	.	9	0
+	+	107	11
+	+	14	0
+	+	106	19
+	+	74	55
+	+	108	0
+	+	106	17
+	+	6	25
+	+	7	0
+	+	6	0
+	+	7	49
+	+	8	55
+	+	9	0
+
+> ~/Project/DSAP/AMODB2.cpp
+	*	1757000198	0
+	"	19	19
+	^	16	88
+	.	16	87
+	+	28	53
+	+	28	7
+	+	28	8
+	+	28	35
+	+	28	46
+	+	28	39
+	+	28	35
+	+	28	40
+	+	28	32
+	+	16	14
+	+	21	22
+	+	28	8
+	+	16	51
+	+	21	29
+	+	16	52
+	+	21	8
+	+	21	0
+	+	28	7
+	+	21	29
+	+	21	24
+	+	21	0
+	+	21	7
+	+	21	8
+	+	28	8
+	+	28	18
+	+	28	15
+	+	28	19
+	+	28	15
+	+	28	16
+	+	28	8
+	+	28	18
+	+	29	11
+	+	9	41
+	+	21	0
+	+	28	17
+	+	28	22
+	+	21	0
+	+	28	17
+	+	16	46
+	+	22	9
+	+	28	0
+	+	25	12
+	+	25	15
+	+	25	11
+	+	25	15
+	+	23	0
+	+	25	12
+	+	25	15
+	+	25	11
+	+	25	15
+	+	29	0
+	+	25	23
+	+	25	11
+	+	26	11
+	+	25	0
+	+	28	5
+	+	29	0
+	+	21	8
+	+	23	12
+	+	28	0
+	+	25	0
+	+	24	20
+	+	24	18
+	+	24	38
+	+	21	0
+	+	28	0
+	+	27	32
+	+	25	0
+	+	24	40
+	+	21	0
+	+	16	64
+	+	17	5
+	+	21	21
+	+	16	64
+	+	21	0
+	+	28	28
+	+	27	0
+	+	28	13
+	+	24	0
+	+	27	32
+	+	28	0
+	+	16	13
+	+	27	0
+	+	23	36
+	+	24	0
+	+	23	36
+	+	24	0
+	+	28	20
+	+	16	0
+	+	28	0
+	+	20	15
+	+	28	0
+	+	19	19
+	+	24	0
+	+	16	62
+	+	18	15
+	+	16	87
+
+> ~/Project/DSAP/APLUSBCB.cpp
+	*	1756997652	0
+	"	19	0
+	.	5	0
+	+	1	12
+	+	1	0
+	+	1	29
+	+	1	39
+	+	1	44
+	+	1	16
+	+	1	45
+	+	1	12
+	+	1	0
+	+	1	19
+	+	1	0
+	+	1	19
+	+	1	6
+	+	1	15
+	+	1	72
+	+	1	58
+	+	1	60
+	+	1	15
+	+	1	0
+	+	1	23
+	+	1	15
+	+	1	25
+	+	1	24
+	+	1	0
+	+	1	17
+	+	1	32
+	+	1	17
+	+	1	29
+	+	1	17
+	+	1	0
+	+	1	26
+	+	1	28
+	+	1	39
+	+	1	35
+	+	1	25
+	+	1	19
+	+	1	40
+	+	1	10
+	+	1	5
+	+	1	31
+	+	1	8
+	+	1	16
+	+	1	14
+	+	1	18
+	+	1	13
+	+	1	17
+	+	1	0
+	+	1	12
+	+	1	18
+	+	1	13
+	+	1	0
+	+	1	12
+	+	1	24
+	+	1	19
+	+	1	22
+	+	1	18
+	+	1	13
+	+	1	0
+	+	1	6
+	+	1	3
+	+	1	10
+	+	1	12
+	+	1	8
+	+	1	24
+	+	1	17
+	+	1	41
+	+	1	0
+	+	1	12
+	+	1	16
+	+	1	12
+	+	1	8
+	+	1	0
+	+	1	19
+	+	1	41
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	20
+	+	1	0
+	+	1	17
+	+	1	19
+	+	1	0
+	+	4	0
+	+	1	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	5	0
+
+> ~/Project/DSAP/APLUSBCB
+	*	1756997645	0
+	"	1	0
+
+> ~/Project/DSAP/test.cpp
+	*	1756988220	0
+	"	1	0
+	.	1	0
+	+	1	20
+	+	1	0
+	+	1	18
+	+	1	14
+	+	1	0
+	+	1	19
+	+	1	15
+	+	1	29
+	+	1	12
+	+	1	5
+	+	1	11
+	+	1	13
+	+	1	0
+	+	1	17
+	+	1	0
+	+	1	5
+	+	1	18
+	+	1	17
+	+	1	0
+	+	1	8
+	+	1	30
+	+	1	37
+	+	1	35
+	+	1	21
+	+	1	44
+	+	1	59
+	+	1	41
+	+	1	0
+	+	1	32
+	+	1	22
+	+	1	21
+	+	1	13
+	+	1	20
+	+	1	24
+	+	1	31
+	+	1	5
+	+	1	65
+	+	1	5
+	+	1	21
+	+	1	5
+	+	1	18
+	+	1	16
+	+	1	54
+	+	1	0
+	+	1	58
+	+	1	19
+	+	1	0
+	+	1	23
+	+	1	12
+	+	1	21
+	+	1	16
+	+	1	22
+	+	1	0
+	+	1	11
+	+	1	22
+	+	1	23
+	+	1	22
+	+	1	13
+	+	1	0
+	+	1	22
+	+	1	11
+	+	1	12
+	+	1	7
+	+	1	8
+	+	1	18
+	+	1	53
+	+	1	29
+	+	1	13
+	+	1	20
+	+	1	0
+	+	1	5
+	+	1	21
+	+	1	20
+	+	1	27
+	+	1	18
+	+	1	0
+	+	1	51
+	+	1	18
+	+	1	20
+	+	1	41
+	+	1	0
+	+	1	41
+	+	1	0
+	+	1	45
+	+	1	17
+	+	1	39
+	+	1	0
+	+	1	5
+	+	1	62
+	+	1	12
+	+	1	89
+	+	1	8
+	+	1	0
+
+> ~/Project/DSAP/test
+	*	1756914771	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> ~/.vimrc
+	*	1756908239	0
+	"	1	0
+	^	39	90
+	.	39	89
+	+	3	9
+	+	3	25
+	+	4	13
+	+	6	11
+	+	6	0
+	+	3	9
+	+	4	13
+	+	7	11
+	+	3	9
+	+	6	11
+	+	4	12
+	+	6	11
+	+	8	14
+	+	1	11
+	+	8	10
+	+	4	0
+	+	1	15
+	+	3	0
+	+	2	11
+	+	9	13
+	+	5	15
+	+	9	12
+	+	10	7
+	+	5	16
+	+	6	12
+	+	8	0
+	+	10	0
+	+	21	14
+	+	15	0
+	+	16	44
+	+	40	0
+	+	21	15
+	+	17	0
+	+	14	18
+	+	14	19
+	+	14	26
+	+	14	0
+	+	10	0
+	+	21	15
+	+	10	0
+	+	25	11
+	+	17	21
+	+	21	33
+	+	21	52
+	+	25	3
+	+	25	0
+	+	21	34
+	+	22	0
+	+	36	18
+	+	5	16
+	+	7	0
+	+	6	0
+	+	10	0
+	+	24	19
+	+	25	0
+	+	10	0
+	+	24	12
+	+	23	6
+	+	36	18
+	+	23	2
+	+	17	22
+	+	34	0
+	+	20	0
+	+	18	0
+	+	33	20
+	+	25	12
+	+	19	22
+	+	18	0
+	+	23	10
+	+	36	19
+	+	36	0
+	+	35	32
+	+	30	20
+	+	40	0
+	+	40	101
+	+	36	19
+	+	40	0
+	+	39	89
+
+> ~/APLUSBCB.cpp
+	*	1756908213	0
+	"	1	0
+
+> ~/Project/Simple-memory-allocator/main.c
+	*	1756896865	0
+	"	16	0
+	^	15	14
+	.	15	13
+	+	5	16
+	+	6	16
+	+	1	0
+	+	12	1
+	+	16	0
+	+	1	18
+	+	15	13
+
+> ~/Project/Soul/include/keyboard.h
+	*	1756887758	0
+	"	18	33
+	^	25	59
+	.	25	0
+	+	21	0
+	+	3	35
+	+	21	0
+	+	4	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	3	33
+	+	6	16
+	+	24	76
+	+	25	0
+
+> ~/Project/Soul/include/inputmanager.h
+	*	1756887710	0
+	"	9	34
+	^	5	19
+	.	5	18
+	+	5	0
+	+	4	37
+	+	4	19
+	+	5	0
+	+	8	0
+	+	13	0
+	+	4	20
+	+	5	0
+	+	4	0
+	+	6	0
+	+	5	18
+
+> ~/Project/Soul/src/server.c
+	*	1756887710	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/Project/Soul/src/keyboard.c
+	*	1756887709	0
+	"	17	37
+	.	2	0
+	+	1	21
+	+	3	0
+	+	16	0
+	+	17	0
+	+	1	21
+	+	2	0
+	+	98	0
+	+	96	0
+	+	98	0
+	+	96	75
+	+	98	0
+	+	96	0
+	+	97	0
+	+	98	0
+	+	35	0
+	+	2	0
+	+	97	0
+	+	2	0
+
+> ~/Project/Soul/src/main.c
+	*	1756867755	0
+	"	28	0
+	^	9	19
+	.	8	0
+	+	31	0
+	+	11	16
+	+	2	0
+	+	31	0
+	+	13	17
+	+	84	0
+	+	16	17
+	+	143	0
+	+	16	25
+	+	17	20
+	+	100	0
+	+	144	0
+	+	22	16
+	+	28	0
+	+	9	0
+	+	8	0
+
+> ~/Project/Soul/src/seat.c
+	*	1756867489	0
+	"	43	0
+	^	2	0
+	.	1	17
+	+	1	17
+
+> /usr/local/include/wlroots-0.20/wlr/types/wlr_seat.h
+	*	1756867404	0
+	"	500	2
+
+> ~/Project/Soul/include/seat.h
+	*	1756867109	0
+	"	4	18
+	^	5	25
+	.	5	24
+	+	3	31
+	+	6	0
+	+	7	73
+	+	7	74
+	+	8	0
+	+	8	80
+	+	9	0
+	+	9	80
+	+	4	19
+	+	4	44
+	+	6	0
+	+	5	24
+
+> /usr/local/include/wlroots-0.20/wlr/types/wlr_data_device.h
+	*	1756867028	0
+	"	34	0
+
+> ~/Project/Soul/include/server.h
+	*	1756866246	0
+	"	44	0
+	^	4	19
+	.	4	18
+	+	1	32
+	+	6	0
+	+	4	7
+	+	4	0
+	+	1	11
+	+	4	0
+	+	45	0
+	+	44	75
+	+	44	0
+	+	44	44
+	+	44	75
+	+	44	73
+	+	44	0
+	+	45	0
+	+	4	18
+
+> ~/Project/Soul/meson.build
+	*	1756865715	0
+	"	19	23
+	^	19	24
+	.	19	23
+	+	2	6
+	+	17	6
+	+	18	6
+	+	15	21
+	+	24	0
+	+	14	0
+	+	9	38
+	+	24	30
+	+	18	29
+	+	15	67
+	+	18	16
+	+	19	18
+	+	20	18
+	+	19	20
+	+	20	21
+	+	22	15
+	+	21	18
+	+	19	23
+
+> ~/Project/Soul/src/inputmanager.c
+	*	1756864977	0
+	"	13	0
+	^	69	0
+	.	69	0
+	+	1	18
+	+	36	0
+	+	61	0
+	+	60	0
+	+	61	0
+	+	69	0
+	+	70	0
+	+	2	0
+	+	3	0
+	+	35	0
+	+	70	0
+	+	69	0
+	+	3	0
+	+	69	0
+	+	1	21
+	+	70	0
+	+	69	0
+
+> ~/Project/Soul/src/inputmanager.h
+	*	1756864248	0
+	"	11	24
+	^	11	25
+	.	11	25
+	+	1	39
+	+	4	0
+	+	1	11
+	+	7	36
+	+	7	32
+	+	8	30
+	+	9	72
+	+	4	35
+	+	5	19
+	+	9	67
+	+	9	64
+	+	7	35
+	+	7	31
+	+	7	28
+	+	8	30
+	+	9	72
+	+	9	66
+	+	9	64
+	+	5	18
+	+	5	19
+	+	7	0
+	+	8	0
+	+	9	35
+	+	5	19
+	+	4	35
+	+	7	6
+	+	8	6
+	+	9	41
+	+	6	0
+	+	8	0
+	+	9	35
+	+	9	111
+	+	10	0
+	+	5	0
+	+	4	20
+	+	9	0
+	+	11	25
+
+> ~/Project/Soul/include/keyboardh
+	*	1756862664	0
+	"	1	0
+
+> ~/Project/Soul/src/input.c
+	*	1756861925	0
+	"	130	49
+	^	84	0
+	.	101	0
+	+	1	18
+	+	50	0
+	+	75	0
+	+	74	0
+	+	75	0
+	+	83	0
+	+	137	0
+	+	163	0
+	+	3	0
+	+	16	0
+	+	17	0
+	+	49	0
+	+	163	0
+	+	137	0
+	+	102	0
+	+	136	0
+	+	84	0
+	+	101	0
+
+> ~/Project/Soul/include/input.h
+	*	1756834652	0
+	"	12	0
+	^	28	7
+	.	28	6
+	+	1	39
+	+	4	0
+	+	1	11
+	+	20	36
+	+	20	32
+	+	22	30
+	+	24	37
+	+	4	35
+	+	7	0
+	+	26	32
+	+	28	29
+	+	20	35
+	+	20	31
+	+	21	28
+	+	22	30
+	+	24	37
+	+	26	31
+	+	28	29
+	+	6	18
+	+	7	0
+	+	20	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	22	0
+	+	24	0
+	+	26	0
+	+	28	0
+	+	8	0
+	+	4	35
+	+	18	6
+	+	19	6
+	+	21	6
+	+	22	6
+	+	24	6
+	+	26	6
+	+	28	6
+
+> /usr/local/include/wlroots-0.20/wlr/types/wlr_input_device.h
+	*	1756830710	0
+	"	27	2
+
+> /usr/local/include/wlroots-0.20/wlr/types/wlr_color_representation_v1.h
+	*	1756827798	0
+	"	1	0
+
+> ~/Project/Soul/include/cursor.h
+	*	1756827717	0
+	"	9	1
+	^	9	2
+	.	9	1
+	+	1	14
+	+	1	33
+	+	5	23
+	+	9	2
+	+	1	22
+	+	1	21
+	+	9	0
+	+	2	0
+	+	1	11
+	+	9	1
+
+> /usr/local/include/wlroots-0.20/wlr/types/wlr_cursor.h
+	*	1756827665	0
+	"	160	0
+
+> ~/main.c
+	*	1756825328	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> ~/Project/Flow/main.c
+	*	1756801689	0
+	"	1054	1
+	^	25	19
+	.	25	0
+	+	152	15
+	+	31	0
+	+	32	0
+	+	28	0
+	+	25	0
+
+> ~/Project/Flow/include/main.c
+	*	1756789487	0
+	"	1	0
+
+> ~/Project/Flow/src/meson.build
+	*	1756783378	0
+	"	1	0
+	^	3	25
+	.	3	24
+	+	1	31
+	+	4	32
+	+	5	20
+	+	9	14
+	+	8	14
+	+	9	9
+	+	6	1
+	+	8	21
+	+	1	34
+	+	2	0
+	+	1	32
+	+	3	24
+
+> ~/Project/Flow/meson.build
+	*	1756783377	0
+	"	9	0
+	^	9	0
+	.	9	0
+	+	20	0
+	+	18	20
+	+	20	0
+	+	19	8
+	+	18	8
+	+	18	0
+	+	8	0
+	+	18	0
+	+	8	0
+	+	9	0
+
+> ~/Project/Flow/src/main.c
+	*	1756783218	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	24
+	+	14	14
+	+	1	14
+	+	14	14
+	+	1	23
+	+	1	26
+	+	1	25
+	+	14	14
+	+	1	20
+	+	14	0
+	+	13	0
+	+	1	0
+	+	1	9
+	+	1	10
+	+	1	22
+	+	1	10
+	+	1	17
+	+	1	0
+	+	1	22
+	+	1	33
+	+	1	22
+	+	11	1
+	+	13	0
+	+	4	64
+	+	11	0
+	+	10	16
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	6	4
+	+	7	4
+	+	8	4
+	+	9	4
+	+	10	4
+	+	1	10
+	+	1	0
+	+	1	24
+	+	1	0
+	+	1	18
+	+	1	27
+	+	1	20
+	+	1	0
+
+> /usr/share/vim/vim91/doc/builtin.txt
+	*	1756782149	0
+	"	1950	39
+
+> /usr/share/vim/vim91/doc/options.txt
+	*	1756782136	0
+	"	1453	46
+
+> ~/Project/Flow/src/tags
+	*	1756779791	0
+	"	122	0
+
+> /usr/local/include/wlroots-0.20/wlr/backend.h
+	*	1756779453	0
+	"	1	0
+
+> ~/wlroots/tinywl/Makefile
+	*	1756777382	0
+	"	1	0
+
+> ~/wlroots-tinywl/meson.build
+	*	1756777099	0
+	"	5	16
+	^	5	17
+	.	5	16
+	+	4	42
+	+	5	16
+
+> ~/wlroots-tinywl/Makefile
+	*	1756777025	0
+	"	15	27
+
+> ~/wlroots/tinywl/tinywl.c
+	*	1756776722	0
+	"	439	19
+
+> ~/mcwayface/meson.build
+	*	1756744271	0
+	"	15	57
+	^	15	58
+	.	15	57
+	+	32	40
+	+	14	61
+	+	16	0
+	+	17	0
+	+	15	57
+
+> ~/Project/Flow/build/meson-logs/meson-log.txt
+	*	1756743501	0
+	"	47	42
+
+> ~/Project/Flow/client/flow.c
+	*	1756571221	0
+	"	14	4
+	^	14	5
+	.	16	0
+	+	7	81
+	+	6	56
+	+	7	0
+	+	15	5
+	+	13	48
+	+	15	5
+	+	16	0
+
+> ~/protocol.h
+	*	1756571197	0
+	"	5284	8
+
+> ~/Project/Flow/src/server/meson.build
+	*	1756569688	0
+	"	5	10
+	^	5	11
+	.	5	10
+	+	1	16
+	+	2	32
+	+	3	42
+	+	5	16
+	+	4	15
+	+	5	10
+
+> ~/Project/Flow/src/client/meson.build
+	*	1756569667	0
+	"	5	10
+	^	5	11
+	.	5	10
+	+	1	15
+	+	2	31
+	+	3	27
+	+	6	0
+	+	4	15
+	+	5	10
+
+> ~/Project/Flow/src/server/flow-server.c
+	*	1756569505	0
+	"	1	0
+	^	24	1
+	.	24	0
+	+	1	18
+	+	24	0
+
+> ~/Project/Flow/src/client/flow.c
+	*	1756569075	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/Project/FlowWM/meson.build
+	*	1756568700	0
+	"	11	26
+	^	11	27
+	.	11	26
+	+	7	42
+	+	12	0
+	+	12	9
+	+	12	8
+	+	7	7
+	+	12	23
+	+	12	0
+	+	12	15
+	+	12	22
+	+	12	0
+	+	12	48
+	+	12	9
+	+	12	6
+	+	12	20
+	+	12	0
+	+	12	14
+	+	12	0
+	+	8	0
+	+	12	17
+	+	12	0
+	+	11	26
+
+> ~/Project/FlowWM/buildserver/build.ninja
+	*	1756568316	0
+	"	1	0
+
+> ~/Project/FlowWM/flowwm-server.c
+	*	1756568143	0
+	"	1	0
+	^	24	1
+	.	24	0
+	+	24	0
+
+> ~/Project/FlowWM/flowwm.c
+	*	1756567623	0
+	"	7	56
+	^	8	17
+	.	7	0
+	+	2	26
+	+	6	30
+	+	16	0
+	+	7	4
+	+	16	0
+	+	15	12
+	+	16	0
+	+	7	0
+
+> /usr/share/wayland/wayland.xml
+	*	1756566303	0
+	"	1481	22
+
+> ~/Project/FlowWM/build/flowwm.c
+	*	1756563656	0
+	"	1	0
 
 > ~/dotfiles/export-config.sh
 	*	1756541909	0
@@ -603,16 +2242,6 @@ $
 	+	3	17
 	+	4	49
 	+	5	11
-
-> ~/.local/share/applications/photoshop-cc-2019.desktop
-	*	1756478332	0
-	"	5	14
-	^	5	15
-	.	5	14
-	+	5	99
-	+	4	21
-	+	6	45
-	+	5	14
 
 > ~/.config/waybar/style.css
 	*	1756471069	0
@@ -731,97 +2360,6 @@ $
 	.	2	0
 	+	2	0
 
-> ~/.config/mako/config
-	*	1756401273	0
-	"	24	14
-	^	24	15
-	.	24	14
-	+	3	23
-	+	4	19
-	+	3	23
-	+	8	0
-	+	7	26
-	+	24	14
-
-> ~/.vimrc
-	*	1756401229	0
-	"	13	0
-	^	30	20
-	.	30	20
-	+	3	9
-	+	3	25
-	+	4	13
-	+	6	11
-	+	6	0
-	+	3	9
-	+	4	13
-	+	7	11
-	+	3	9
-	+	6	11
-	+	4	12
-	+	6	11
-	+	8	14
-	+	1	11
-	+	8	10
-	+	4	0
-	+	1	15
-	+	3	0
-	+	2	11
-	+	9	13
-	+	5	15
-	+	9	12
-	+	10	7
-	+	5	16
-	+	6	12
-	+	8	0
-	+	10	0
-	+	21	14
-	+	15	0
-	+	16	44
-	+	38	0
-	+	21	15
-	+	17	0
-	+	14	18
-	+	14	19
-	+	14	26
-	+	14	0
-	+	10	0
-	+	21	15
-	+	10	0
-	+	25	11
-	+	17	21
-	+	21	33
-	+	21	52
-	+	25	3
-	+	25	0
-	+	21	34
-	+	22	0
-	+	36	18
-	+	5	16
-	+	7	0
-	+	6	0
-	+	10	0
-	+	24	19
-	+	25	0
-	+	10	0
-	+	24	12
-	+	23	6
-	+	36	18
-	+	23	2
-	+	17	22
-	+	34	0
-	+	20	0
-	+	18	0
-	+	33	20
-	+	25	12
-	+	19	22
-	+	18	0
-	+	23	10
-	+	36	19
-	+	36	0
-	+	35	32
-	+	30	20
-
 > ~/.bashrc
 	*	1756387684	0
 	"	16	0
@@ -844,27 +2382,6 @@ $
 	^	488	0
 	.	488	0
 	+	488	0
-
-> ~/.zshrc
-	*	1756377496	0
-	"	6	0
-	.	6	0
-	+	105	11
-	+	12	0
-	+	104	19
-	+	72	55
-	+	106	0
-	+	104	17
-	+	6	25
-	+	7	0
-	+	6	0
-
-> ~/IELTS/word
-	*	1756376601	0
-	"	1	27
-	^	1	28
-	.	1	27
-	+	1	27
 
 > ~/dotfiles/install-packages.sh
 	*	1756361724	0
@@ -903,591 +2420,3 @@ $
 	+	9	20
 	+	6	0
 	+	8	12
-
-> ~/dotfiles/test.sh
-	*	1756361649	0
-	"	6	12
-	^	6	13
-	.	6	12
-	+	3	31
-	+	9	0
-	+	5	24
-	+	5	23
-	+	5	9
-	+	4	28
-	+	5	7
-	+	9	0
-	+	7	1
-	+	4	23
-	+	2	13
-	+	3	3
-	+	4	3
-	+	5	7
-	+	7	6
-	+	8	3
-	+	6	12
-
-> ~/dotfiles/install-config.sh
-	*	1756360788	0
-	"	8	1
-	^	6	2
-	.	6	1
-	+	8	11
-	+	10	3
-	+	9	5
-	+	10	5
-	+	3	56
-	+	5	20
-	+	6	1
-
-> ~/dotfiles/README.md
-	*	1756358794	0
-	"	62	0
-	^	57	27
-	.	57	26
-	+	61	93
-	+	4	24
-	+	57	26
-
-> ~/.var/app/org.vinegarhq.Sober/config/sober/config.json
-	*	1756140114	0
-	"	15	22
-	^	15	23
-	.	15	22
-	+	15	22
-
-> ~/Downloads/Adobe_Premiere_Pro_CS6_6.0.0_LS7_[Kashi.com.vn]/LẤY MẬT KHẨU GIẢI NÉN.url
-	*	1755943807	0
-	"	5	46
-
-> ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2018-Portable/Mã giải nén File.URL
-	*	1755942383	0
-	"	6	10
-
-> ~/Downloads/[phanmemmaytinh.org] Adobe-Illustrator-2019/Mã giải nén File.URL
-	*	1755942033	0
-	"	5	20
-
-> ~/mat khau giai nen illustrator.url
-	*	1755936117	0
-	"	1	0
-
-> ~/Downloads/illustrator-2022-portable/mat khau giai nen illustrator.url
-	*	1755935861	0
-	"	5	12
-
-> ~/Downloads/Adobe Photoshop CC 2019 Portable_thachlong.com/Hướng dẫn.txt
-	*	1755934816	0
-	"	1	0
-
-> ~/.local/share/applications/illustrator-cs6.desktop
-	*	1755876281	0
-	"	5	4
-	^	5	5
-	.	5	5
-	+	6	55
-	+	5	5
-
-> ~/.zsh_history
-	*	1755866835	0
-	"	690	19
-
-> ~/.local/share/applications/photoshop-cs6.desktop
-	*	1755866814	0
-	"	8	0
-	^	5	15
-	.	5	14
-	+	6	19
-	+	5	14
-
-> ~/wine3d.log
-	*	1755842584	0
-	"	3935	43
-
-> /usr/share/applications/steam.desktop
-	*	1755750265	0
-	"	282	4
-	^	282	5
-
-> ~/.vim/plugged/fzf/doc/fzf.txt
-	*	1755707168	0
-	"	139	0
-
-> ~/Downloads/photoshop-cs6.desktop
-	*	1755706733	0
-	"	5	85
-	^	5	86
-	.	5	85
-	+	5	0
-	+	4	0
-	+	5	87
-	+	5	0
-	+	6	46
-	+	4	15
-	+	5	39
-	+	6	56
-	+	5	85
-
-> ~/dotfiles/winetest
-	*	1755702529	0
-	"	1	76
-	^	1	77
-	.	1	76
-	+	1	76
-
-> ~/dotfiles/exported-packages
-	*	1755696957	0
-	"	88	17
-
-> ~/.config/niri/config.kdl
-	*	1755689030	0
-	"	107	15
-	^	107	16
-	.	107	15
-	+	208	28
-	+	209	30
-	+	207	14
-	+	79	12
-	+	9	11
-	+	15	10
-	+	15	0
-	+	9	20
-	+	11	36
-	+	14	0
-	+	9	0
-	+	10	0
-	+	12	0
-	+	13	15
-	+	41	8
-	+	40	9
-	+	38	21
-	+	40	8
-	+	41	9
-	+	42	9
-	+	41	22
-	+	40	8
-	+	92	11
-	+	93	0
-	+	280	43
-	+	107	15
-
-> ~/.config/waybar/config
-	*	1755535694	0
-	"	110	17
-	^	110	18
-	.	110	17
-	+	112	38
-	+	111	25
-	+	113	29
-	+	73	32
-	+	72	28
-	+	71	24
-	+	121	22
-	+	136	30
-	+	137	31
-	+	138	30
-	+	137	31
-	+	138	30
-	+	143	61
-	+	114	22
-	+	26	27
-	+	26	11
-	+	26	79
-	+	30	17
-	+	27	0
-	+	34	0
-	+	27	5
-	+	30	17
-	+	26	33
-	+	31	18
-	+	32	17
-	+	31	18
-	+	33	13
-	+	30	9
-	+	31	9
-	+	32	9
-	+	33	9
-	+	29	19
-	+	33	18
-	+	29	18
-	+	30	17
-	+	31	17
-	+	32	17
-	+	33	14
-	+	32	14
-	+	31	14
-	+	30	14
-	+	29	18
-	+	30	17
-	+	31	17
-	+	32	17
-	+	33	17
-	+	29	9
-	+	35	9
-	+	30	9
-	+	31	9
-	+	32	9
-	+	34	9
-	+	33	9
-	+	35	9
-	+	33	9
-	+	34	9
-	+	36	9
-	+	35	9
-	+	36	9
-	+	9	0
-	+	29	9
-	+	30	14
-	+	110	17
-
-> ~/yay/dotfiles/exported-packages
-	*	1755533200	0
-	"	66	0
-
-> ~/.config/fuzzel/fuzzel.ini
-	*	1755533072	0
-	"	1	0
-	^	3	24
-	.	3	0
-	+	1	41
-	+	4	21
-	+	3	0
-
-> ~/.config/fontconfig/fonts.conf
-	*	1755532144	0
-	"	7	38
-	^	8	39
-	.	8	38
-	+	41	12
-	+	26	12
-	+	1	12
-	+	12	0
-	+	11	12
-	+	7	37
-	+	8	38
-
-> /usr/share/fontconfig/conf.avail/10-hinting-medium.conf
-	*	1755531759	0
-	"	1	0
-
-> /usr/share/fontconfig/conf.avail/10-hinting-
-	*	1755531753	0
-	"	1	0
-
-> ~/10-nerd-font-symbols.conf
-	*	1755531645	0
-	"	13	27
-
-> /etc/fonts/conf.d/50-user.conf
-	*	1755530882	0
-	"	1	0
-
-> ~/.config/lf/lfrc
-	*	1755530840	0
-	"	44	0
-	^	128	25
-	.	129	0
-	+	129	0
-	m	75	0
-	n	75	0
-
-> ~/.bash_logout
-	*	1755529350	0
-	"	3	0
-
-> ~/.config/kitty/kitty.conf
-	*	1755528254	0
-	"	1	0
-	^	3	238
-	.	3	237
-	+	8	21
-	+	7	10
-	+	1	19
-	+	3	237
-
-> ~/yay/dotfiles/install-packages.sh
-	*	1755527193	0
-	"	22	0
-
-> ~/.config/waybar/scripts/mode.sh
-	*	1755526912	0
-	"	4	18
-	^	4	19
-	.	4	19
-	+	7	0
-	+	3	29
-	+	4	23
-	+	6	24
-	+	4	19
-
-> ~/.config/waybar/scripts/mode
-	*	1755526837	0
-	"	1	0
-
-> ~/yay/dotfiles/git-install
-	*	1755503981	0
-	"	1	0
-
-> ~/.config/waybar/scripts/active.sh
-	*	1755418358	0
-	"	5	0
-	^	5	0
-	.	4	25
-	+	2	0
-	+	6	0
-	+	4	0
-	+	2	0
-	+	3	50
-	+	3	2
-	+	3	25
-	+	3	17
-	+	7	17
-	+	3	16
-	+	3	20
-	+	3	29
-	+	4	0
-	+	3	51
-	+	4	25
-
-> ~/.config/waybar/scripts/change.sh
-	*	1755418318	0
-	"	7	1
-	^	6	0
-	.	6	0
-	+	7	0
-	+	3	29
-	+	4	44
-	+	6	3
-	+	4	100
-	+	5	0
-	+	3	29
-	+	4	48
-	+	4	0
-	+	5	0
-	+	4	3
-	+	6	52
-	+	6	0
-	+	7	0
-	+	4	0
-	+	6	0
-
-> ~/.config/waybar/scripts/dnd.sh
-	*	1755418066	0
-	"	4	6
-	.	3	0
-	+	4	0
-	+	8	0
-	+	5	110
-	+	2	0
-	+	2	6
-	+	8	0
-	+	7	17
-	+	2	1
-	+	2	23
-	+	2	29
-	+	3	57
-	+	3	0
-
-> ~/.config/vis/config
-	*	1755405808	0
-	"	6	35
-	^	6	36
-	.	6	35
-	+	10	20
-	+	1	109
-	+	1	0
-	+	10	20
-	+	1	0
-	+	10	0
-	+	9	33
-	+	1	0
-	+	9	33
-	+	7	0
-	+	1	39
-	+	1	0
-	+	3	36
-	+	4	39
-	+	5	36
-	+	2	39
-	+	1	0
-	+	5	35
-	+	6	35
-	+	5	37
-	+	6	35
-	+	5	35
-	+	4	33
-	+	1	30
-	+	2	32
-	+	9	32
-	+	9	33
-	+	10	39
-	+	2	0
-	+	11	38
-	+	2	0
-	+	10	39
-	+	11	39
-	+	11	0
-	+	13	0
-	+	11	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	2	0
-	+	1	30
-	+	10	0
-	+	6	35
-
-> ~/main.cpp
-	*	1755405743	0
-	"	7	0
-	^	6	31
-	.	6	30
-	+	13	0
-	+	12	6
-	+	1	24
-	+	7	0
-	+	6	0
-	+	7	0
-	+	3	19
-	+	6	30
-
-> ~/.config/vis/colors/gruvbox
-	*	1755403252	0
-	"	1	0
-	.	2	0
-	+	2	6
-	+	2	7
-	+	2	0
-	+	1	6
-	+	2	0
-
-> ~/.config/vis/temp
-	*	1755403142	0
-	"	2	0
-	^	1	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/dotfiles/application-list
-	*	1755402623	0
-	"	11	8
-	^	11	9
-	.	12	0
-	+	11	11
-	+	1	0
-	+	2	0
-	+	13	2
-	+	12	0
-
-> ~/.config/cava/config
-	*	1755402430	0
-	"	92	0
-	^	92	1
-	.	92	0
-	+	84	0
-	+	83	14
-	+	82	0
-	+	83	0
-	+	85	0
-	+	86	0
-	+	89	0
-	+	88	0
-	+	95	0
-	+	94	0
-	+	97	0
-	+	98	0
-	+	100	0
-	+	101	0
-	+	103	0
-	+	104	0
-	+	106	0
-	+	107	0
-	+	91	0
-	+	91	13
-	+	82	0
-	+	83	0
-	+	85	0
-	+	86	0
-	+	89	0
-	+	88	0
-	+	94	0
-	+	106	0
-	+	107	0
-	+	95	0
-	+	100	0
-	+	98	0
-	+	97	0
-	+	101	0
-	+	103	0
-	+	104	0
-	+	91	0
-	+	92	0
-	+	91	0
-	+	92	0
-
-> ~/.config/mpd/mpd.conf
-	*	1755402376	0
-	"	95	26
-	^	95	27
-	.	95	26
-	+	237	1
-	+	238	0
-	+	271	0
-	+	269	4
-	+	276	0
-	+	50	0
-	+	227	15
-	+	281	0
-	+	279	13
-	+	280	19
-	+	58	0
-	+	95	26
-	m	201	20
-
-> /etc/gtk-3.0/settings.ini
-	*	1755398663	0
-	"	1	0
-
-> ~/.config/fuzzel/themes/blue.ini
-	*	1755398417	0
-	"	14	0
-	^	14	0
-	.	13	0
-	+	2	0
-	+	13	0
-
-> /usr/share/vim/vim91/doc/filetype.txt
-	*	1755397718	0
-	"	300	24
-
-> ~/.config/fuzzel/themes/gruvbox.ini
-	*	1755397460	0
-	"	12	14
-	^	10	16
-	.	10	16
-	+	2	11
-	+	13	0
-	+	2	18
-	+	12	13
-	+	8	15
-	+	9	20
-	+	10	21
-	+	3	12
-	+	7	10
-	+	4	12
-	+	5	17
-	+	6	11
-	+	10	16
-
-> /usr/share/vim/vim91/doc/syntax.txt
-	*	1755397260	0
-	"	5206	24
-
-> ~/.viminfo
-	*	1755397043	0
-	"	1	0
-
-> /usr/share/vim/vim91/doc/term.txt
-	*	1755355872	0
-	"	435	22
